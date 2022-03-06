@@ -11,11 +11,11 @@
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #ddd;
-  --btn-default-bg: transparent;
-  --btn-default-color: var(--link-color);
-  --btn-default-border-color: var(--link-color);
-  --btn-default-hover-bg: transparent;
-  --btn-default-hover-color: var(--link-hover-color);
+  --btn-default-bg: #fff;
+  --btn-default-color: #555;
+  --btn-default-border-color: #555;
+  --btn-default-hover-bg: #222;
+  --btn-default-hover-color: #fff;
   --btn-default-hover-border-color: var(--link-hover-color);
 }
 html {
@@ -1326,7 +1326,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #d1ffcf;
+  background: #9afff4;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1707,6 +1707,14 @@ pre .javascript .function {
 }
 .use-motion .collection-header {
   opacity: 0;
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
 }
 .posts-collapse {
   margin-left: 35px;
@@ -2724,20 +2732,30 @@ span#inline-toc {
   line-height: 1.5;
 }
 body {
-  background: url("/images/background.png");
+  background-image: url("/images/background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  opacity: 1;
+  background-position: 50% 50%;
+  background-size: 100% 100%;
 }
 .content-wrap {
+  opacity: 0.9;
+}
+.main-inner {
+  background-color: rgba(255,255,255,0.9);
+}
+.post-block {
   opacity: 0.9;
 }
 .sidebar {
   opacity: 0.9;
 }
-code {
-  color: #b294bb;
-  background: #1d1f21;
-  margin: 2px;
+.header-inner {
+  background: rgba(255,255,255,0.9);
+}
+.pagination {
+  opacity: 0.9;
+}
+.popup {
+  opacity: 0.9;
 }
