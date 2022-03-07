@@ -314,6 +314,12 @@
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
   </nav>
 </div>
   <div class="sidebar-button motion-element">
@@ -394,16 +400,15 @@
     </span>
     <span title="站点阅读时长">1 分钟</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
-  </div>
 
 <!-- 网站运行时间的设置 -->
 <span id="timeDate">载入天数...</span>
-<span id="times">载入时分秒...</span>  Thanks for the company.
+<span id="times">载入时分秒...</span>  
+Thanks for the company.
 <script>
     var now = new Date();
     function createtime() {
-        var grt= new Date("06/03/2022 23:00");//此处修改你的建站时间或者网站上线时间
+        var grt= new Date("03/06/2022 23:00");//此处修改你的建站时间或者网站上线时间
         now.setTime(now.getTime()+250);
         days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days);
         hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours);

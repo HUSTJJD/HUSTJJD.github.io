@@ -4,5 +4,8 @@
     <title>My New Post</title>
     <url>/posts/177574ba.html</url>
     <content><![CDATA[]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
   </entry>
 </search>
