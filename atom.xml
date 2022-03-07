@@ -3,11 +3,11 @@
   <title>孤独患者</title>
   
   
-  <link href="https://hustjjd.github.io/atom.xml" rel="self"/>
+  <link href="http://jiangjd.top/atom.xml" rel="self"/>
   
-  <link href="https://hustjjd.github.io/"/>
+  <link href="http://jiangjd.top/"/>
   <updated>2022-03-07T06:21:52.731Z</updated>
-  <id>https://hustjjd.github.io/</id>
+  <id>http://jiangjd.top/</id>
   
   <author>
     <name>JiangJD</name>
@@ -18,15 +18,15 @@
   
   <entry>
     <title>C++性能优化指南</title>
-    <link href="https://hustjjd.github.io/posts/177574ba.html"/>
-    <id>https://hustjjd.github.io/posts/177574ba.html</id>
+    <link href="http://jiangjd.top/posts/177574ba.html"/>
+    <id>http://jiangjd.top/posts/177574ba.html</id>
     <published>2022-03-05T10:19:48.000Z</published>
     <updated>2022-03-07T06:21:52.731Z</updated>
     
     
     
     
-    <category term="C++" scheme="https://hustjjd.github.io/categories/C/"/>
+    <category term="C++" scheme="http://jiangjd.top/categories/C/"/>
     
     
   </entry>
