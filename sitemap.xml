@@ -2,9 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://jiangjd.top/posts/4edd9488.html</loc>
+    
+    <lastmod>2022-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangjd.top/posts/44ad77e3.html</loc>
+    
+    <lastmod>2022-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://jiangjd.top/posts/cf6c3d31.html</loc>
+    
+    <lastmod>2022-04-24</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://jiangjd.top/posts/177574ba.html</loc>
     
-    <lastmod>2022-03-07</lastmod>
+    <lastmod>2022-03-24</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,7 +76,7 @@
 
   <url>
     <loc>http://jiangjd.top/</loc>
-    <lastmod>2022-03-07</lastmod>
+    <lastmod>2022-04-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -59,7 +86,7 @@
   
   <url>
     <loc>http://jiangjd.top/categories/C/</loc>
-    <lastmod>2022-03-07</lastmod>
+    <lastmod>2022-04-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
