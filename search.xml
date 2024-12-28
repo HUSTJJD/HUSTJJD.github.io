@@ -70,19 +70,6 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Z%20Reference%20Link/"/>
-      <url>/2024/12/28/Programing/Z%20Reference%20Link/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><h1 id="C-amp-C"><a href="#C-amp-C" class="headerlink" title="C&amp;C++"></a>C&amp;C++</h1><p>C++ 参考手册 <a href="https://c-cpp.com/cpp">https://c-cpp.com/cpp</a></p><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><h1 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h1><h1 id="Cuda"><a href="#Cuda" class="headerlink" title="Cuda"></a>Cuda</h1><h1 id="TypeScript"><a href="#TypeScript" class="headerlink" title="TypeScript"></a>TypeScript</h1><h1 id="C"><a href="#C" class="headerlink" title="C"></a>C</h1><h1 id="Rust"><a href="#Rust" class="headerlink" title="Rust"></a>Rust</h1><p>Rust 程序设计语言 <a href="https://rustwiki.org/zh-CN/book/title-page.html">https://rustwiki.org/zh-CN/book/title-page.html</a></p><h1 id="Design-Pattern"><a href="#Design-Pattern" class="headerlink" title="Design Pattern"></a>Design Pattern</h1><p>设计模式 <a href="https://refactoringguru.cn/design-patterns">https://refactoringguru.cn/design-patterns</a></p><h2 id="Creational"><a href="#Creational" class="headerlink" title="Creational"></a>Creational</h2><h2 id="Behavioral"><a href="#Behavioral" class="headerlink" title="Behavioral"></a>Behavioral</h2><h2 id="Structural"><a href="#Structural" class="headerlink" title="Structural"></a>Structural</h2><h1 id="Lua"><a href="#Lua" class="headerlink" title="Lua"></a>Lua</h1><h1 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h1><p>Google 开源项目风格指南  <a href="https://zh-google-styleguide.readthedocs.io/en/latest/index.html">https://zh-google-styleguide.readthedocs.io/en/latest/index.html</a></p><h1 id="TypeScript-1"><a href="#TypeScript-1" class="headerlink" title="TypeScript"></a>TypeScript</h1>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/2024/12/28/Resume/CN/"/>
       <url>/2024/12/28/Resume/CN/</url>
       
@@ -96,8 +83,21 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Shell/1%20Overview/"/>
-      <url>/2024/12/28/Programing/Shell/1%20Overview/</url>
+      <link href="/2024/12/28/Programing/Z%20Reference%20Link/"/>
+      <url>/2024/12/28/Programing/Z%20Reference%20Link/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Misc"><a href="#Misc" class="headerlink" title="Misc"></a>Misc</h1><h1 id="C-amp-C"><a href="#C-amp-C" class="headerlink" title="C&amp;C++"></a>C&amp;C++</h1><p>C++ 参考手册 <a href="https://c-cpp.com/cpp">https://c-cpp.com/cpp</a></p><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><h1 id="Shell"><a href="#Shell" class="headerlink" title="Shell"></a>Shell</h1><h1 id="Cuda"><a href="#Cuda" class="headerlink" title="Cuda"></a>Cuda</h1><h1 id="TypeScript"><a href="#TypeScript" class="headerlink" title="TypeScript"></a>TypeScript</h1><h1 id="C"><a href="#C" class="headerlink" title="C"></a>C</h1><h1 id="Rust"><a href="#Rust" class="headerlink" title="Rust"></a>Rust</h1><p>Rust 程序设计语言 <a href="https://rustwiki.org/zh-CN/book/title-page.html">https://rustwiki.org/zh-CN/book/title-page.html</a></p><h1 id="Design-Pattern"><a href="#Design-Pattern" class="headerlink" title="Design Pattern"></a>Design Pattern</h1><p>设计模式 <a href="https://refactoringguru.cn/design-patterns">https://refactoringguru.cn/design-patterns</a></p><h2 id="Creational"><a href="#Creational" class="headerlink" title="Creational"></a>Creational</h2><h2 id="Behavioral"><a href="#Behavioral" class="headerlink" title="Behavioral"></a>Behavioral</h2><h2 id="Structural"><a href="#Structural" class="headerlink" title="Structural"></a>Structural</h2><h1 id="Lua"><a href="#Lua" class="headerlink" title="Lua"></a>Lua</h1><h1 id="Code-Style"><a href="#Code-Style" class="headerlink" title="Code Style"></a>Code Style</h1><p>Google 开源项目风格指南  <a href="https://zh-google-styleguide.readthedocs.io/en/latest/index.html">https://zh-google-styleguide.readthedocs.io/en/latest/index.html</a></p><h1 id="TypeScript-1"><a href="#TypeScript-1" class="headerlink" title="TypeScript"></a>TypeScript</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Lua/4%20Lua%20%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+      <url>/2024/12/28/Programing/Lua/4%20Lua%20%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -122,49 +122,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Rust/1%20%E5%9F%BA%E7%A1%80/"/>
-      <url>/2024/12/28/Programing/Rust/1%20%E5%9F%BA%E7%A1%80/</url>
-      
-        <content type="html"><![CDATA[<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">guess</span>: <span class="type">u32</span> = <span class="number">1</span></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/Lua/4%20Lua%20%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
-      <url>/2024/12/28/Programing/Lua/4%20Lua%20%E8%99%9A%E6%8B%9F%E6%9C%BA/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/2024/12/28/Programing/Lua/5%20Lua%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/"/>
       <url>/2024/12/28/Programing/Lua/5%20Lua%20%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1/</url>
       
         <content type="html"><![CDATA[<h1 id="源码"><a href="#源码" class="headerlink" title="源码"></a>源码</h1><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> recursionsetmetatable</span><br><span class="line">recursionsetmetatable = <span class="function"><span class="keyword">function</span><span class="params">(t, index)</span></span></span><br><span class="line">    <span class="keyword">local</span> mt = <span class="built_in">getmetatable</span>(t)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> mt <span class="keyword">then</span> mt = &#123;&#125; <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> mt.<span class="built_in">__index</span> <span class="keyword">then</span></span><br><span class="line">        mt.<span class="built_in">__index</span> = index</span><br><span class="line">        mt.<span class="built_in">__gc</span> = <span class="function"><span class="keyword">function</span><span class="params">(self)</span></span> <span class="built_in">self</span>:Dtor() <span class="keyword">end</span></span><br><span class="line">        <span class="built_in">setmetatable</span>(t, mt)</span><br><span class="line">    <span class="keyword">elseif</span> mt.<span class="built_in">__index</span> ~= index <span class="keyword">then</span></span><br><span class="line">        recursionsetmetatable(mt, index)</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> <span class="function"><span class="keyword">function</span> <span class="title">Class</span><span class="params">(clsName, ...)</span></span></span><br><span class="line">    <span class="keyword">local</span> cls = &#123; __cname = clsName &#125;</span><br><span class="line">    <span class="keyword">local</span> supers = &#123; ... &#125;</span><br><span class="line">    <span class="comment">-- super 可以是table 可以是function</span></span><br><span class="line">    <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(supers) <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">local</span> superType = <span class="built_in">type</span>(super)</span><br><span class="line">        <span class="keyword">if</span> superType == <span class="string">&#x27;function&#x27;</span> <span class="keyword">then</span></span><br><span class="line">            cls.__create = super</span><br><span class="line">        <span class="keyword">elseif</span> superType == <span class="string">&#x27;table&#x27;</span> <span class="keyword">then</span></span><br><span class="line">            cls.__supers = cls.__supers <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">            cls.__supers[#cls.__supers + <span class="number">1</span>] = super</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    cls.<span class="built_in">__index</span> = cls</span><br><span class="line">    <span class="keyword">local</span> mt = &#123;</span><br><span class="line">        <span class="built_in">__call</span> = <span class="function"><span class="keyword">function</span><span class="params">(cls, ...)</span></span> <span class="keyword">return</span> cls.New(...) <span class="keyword">end</span>,</span><br><span class="line">        <span class="comment">-- __gc = function(cls) end</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> cls.__supers <span class="keyword">then</span></span><br><span class="line">        mt.<span class="built_in">__index</span> = <span class="function"><span class="keyword">function</span><span class="params">(_, key)</span></span></span><br><span class="line">            <span class="keyword">for</span> i, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(cls.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">if</span> super[key] <span class="keyword">then</span> <span class="keyword">return</span> super[key] <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="built_in">setmetatable</span>(cls, mt)</span><br><span class="line">    <span class="comment">-- 必然是成员函数</span></span><br><span class="line">    cls.CallSuper = <span class="function"><span class="keyword">function</span><span class="params">(self, funcName, ...)</span></span></span><br><span class="line">        <span class="keyword">if</span> cls.__supers <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(cls.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">local</span> superFunc = super[funcName]</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">type</span>(superFunc) == <span class="string">&#x27;function&#x27;</span> <span class="keyword">then</span></span><br><span class="line">                    superFunc(<span class="built_in">self</span>, ...)</span><br><span class="line">                <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> cls.Ctor <span class="keyword">then</span></span><br><span class="line">        cls.Ctor = <span class="function"><span class="keyword">function</span><span class="params">(self, ...)</span></span> <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> cls.Dtor <span class="keyword">then</span></span><br><span class="line">        cls.Dtor = <span class="function"><span class="keyword">function</span><span class="params">(self, ...)</span></span> <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    cls.New = <span class="function"><span class="keyword">function</span><span class="params">(...)</span></span></span><br><span class="line">        <span class="keyword">local</span> <span class="built_in">self</span> = cls.__create <span class="keyword">and</span> cls.__create(...) <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">        recursionsetmetatable(<span class="built_in">self</span>, cls)</span><br><span class="line">        <span class="built_in">self</span>:Ctor(...)</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">self</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> cls</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> <span class="function"><span class="keyword">function</span> <span class="title">IsA</span><span class="params">(self, cls)</span></span></span><br><span class="line">    <span class="keyword">local</span> recursionIsA</span><br><span class="line">    recursionIsA = <span class="function"><span class="keyword">function</span><span class="params">(clsXX, clsB)</span></span></span><br><span class="line">        <span class="keyword">if</span> clsXX.__supers <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(clsXX.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">if</span> recursionIsA(super, clsB) <span class="keyword">or</span> super.__cname == clsB.__cname <span class="keyword">then</span></span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">                <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> recursionIsA(<span class="built_in">self</span>, cls) <span class="keyword">or</span> <span class="built_in">self</span>.__cname == cls.__cname</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">_G</span>.Class = Class</span><br><span class="line"><span class="built_in">_G</span>.IsA = IsA</span><br></pre></td></tr></table></figure><h1 id="测试代码"><a href="#测试代码" class="headerlink" title="测试代码"></a>测试代码</h1><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Test Code</span></span><br><span class="line"><span class="keyword">local</span> clsXX = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsXX&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objXX&#x27;</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">self</span>.__cname, clsXX.__cname, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Print</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;clsXX Print&#x27;</span>, <span class="built_in">self</span>.name, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Dtor</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Dtor&#x27;</span>, <span class="built_in">self</span>.name, <span class="built_in">self</span>.__cname, clsXX.__cname)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsYY = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsYY&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objYY&#x27;</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">self</span>.__cname, clsYY.__cname, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Print</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;clsYY Print&#x27;</span>, <span class="built_in">self</span>.name, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Dtor</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Dtor&#x27;</span>, <span class="built_in">self</span>.name, <span class="built_in">self</span>.__cname, clsYY.__cname)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsB = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsB&#x27;</span>, clsXX)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objB&#x27;</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Print</span><span class="params">(...)</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Print&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Dtor</span><span class="params">()</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Dtor&#x27;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsC = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsC&#x27;</span>, clsB, clsYY)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objC&#x27;</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Print</span><span class="params">(...)</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Print&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Dtor</span><span class="params">()</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Dtor&#x27;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> objXX = clsXX.New()</span><br><span class="line"><span class="keyword">local</span> objB = clsB(<span class="number">1</span>)</span><br><span class="line"><span class="keyword">local</span> objC = clsC(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line">objXX:Print()</span><br><span class="line">objB:Print()</span><br><span class="line">objC:Print()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objB, clsB)&#x27;</span>, <span class="built_in">_G</span>.IsA(objB, clsB))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objB, clsC)&#x27;</span>, <span class="built_in">_G</span>.IsA(objB, clsC))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objC, clsXX)&#x27;</span>, <span class="built_in">_G</span>.IsA(objC, clsXX))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objC, clsYY)&#x27;</span>, <span class="built_in">_G</span>.IsA(objC, clsYY))</span><br><span class="line"><span class="keyword">local</span> clsFunc = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsFunc&#x27;</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">    <span class="keyword">return</span> &#123;&#125;</span><br><span class="line"><span class="keyword">end</span>, clsB)</span><br><span class="line"><span class="keyword">local</span> objFunc = clsFunc()</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/TypeScript/1%20Overview/"/>
-      <url>/2024/12/28/Programing/TypeScript/1%20Overview/</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -187,8 +148,34 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Lua/1%20Overview/"/>
-      <url>/2024/12/28/Programing/Lua/1%20Overview/</url>
+      <link href="/2024/12/28/Programing/Rust/1%20%E5%9F%BA%E7%A1%80/"/>
+      <url>/2024/12/28/Programing/Rust/1%20%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<h1 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h1><figure class="highlight rust"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">let</span> <span class="variable">guess</span>: <span class="type">u32</span> = <span class="number">1</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/TypeScript/1%20Overview/"/>
+      <url>/2024/12/28/Programing/TypeScript/1%20Overview/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Shell/1%20Overview/"/>
+      <url>/2024/12/28/Programing/Shell/1%20Overview/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -204,6 +191,19 @@
       <url>/2024/12/28/Programing/Lua/2%20Lua%205.x%E7%B2%BE%E8%A6%81%E6%80%BB%E7%BB%93/</url>
       
         <content type="html"><![CDATA[<h1 id="5-0"><a href="#5-0" class="headerlink" title="5.0"></a>5.0</h1><h1 id="5-1"><a href="#5-1" class="headerlink" title="5.1"></a>5.1</h1><h1 id="5-2"><a href="#5-2" class="headerlink" title="5.2"></a>5.2</h1><h1 id="5-3"><a href="#5-3" class="headerlink" title="5.3"></a>5.3</h1><h1 id="5-4"><a href="#5-4" class="headerlink" title="5.4"></a>5.4</h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Lua/1%20Overview/"/>
+      <url>/2024/12/28/Programing/Lua/1%20Overview/</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -252,8 +252,34 @@
     
     <entry>
       <title></title>
+      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/5%20Memento/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/5%20Memento/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/6%20Observer/"/>
       <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/6%20Observer/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/7%20State/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/7%20State/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -291,8 +317,21 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/5%20Memento/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/5%20Memento/</url>
+      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/1%20Chain%20of%20Responsibility/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/1%20Chain%20of%20Responsibility/</url>
+      
+        <content type="html"><![CDATA[<h2 id="意图"><a href="#意图" class="headerlink" title="意图"></a>意图</h2><p><strong>责任链模式</strong>是一种行为设计模式， 允许你将请求沿着处理者链进行发送。 收到请求后， 每个处理者均可对请求进行处理， 或将其传递给链上的下个处理者。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>与许多其他行为设计模式一样， <strong>责任链</strong>会将特定行为转换为被称作<em>处理者</em>的独立对象。 在上述示例中， 每个检查步骤都可被抽取为仅有单个方法的类， 并执行检查操作。 请求及其数据则会被作为参数传递给该方法。</p><p>模式建议你将这些处理者连成一条链。 链上的每个处理者都有一个成员变量来保存对于下一处理者的引用。 除了处理请求外， 处理者还负责沿着链传递请求。 请求会在链上移动， 直至所有处理者都有机会对其进行处理。</p><p>最重要的是： 处理者可以决定不再沿着链传递请求， 这可高效地取消所有后续处理步骤。</p><p>所有处理者类均实现同一接口是关键所在。 每个具体处理者仅关心下一个包含 <code>execute</code>执行方法的处理者。 这样一来， 你就可以在运行时使用不同的处理者来创建链， 而无需将相关代码与处理者的具体类进行耦合。</p><h2 id="责任链模式适合应用场景"><a href="#责任链模式适合应用场景" class="headerlink" title="责任链模式适合应用场景"></a>责任链模式适合应用场景</h2><p> 当程序需要使用不同方式处理不同种类请求， 而且请求类型和顺序预先未知时， 可以使用责任链模式。</p><p> 该模式能将多个处理者连接成一条链。 接收到请求后， 它会 “询问” 每个处理者是否能够对其进行处理。 这样所有处理者都有机会来处理请求。</p><p> 当必须按顺序执行多个处理者时， 可以使用该模式。</p><p> 无论你以何种顺序将处理者连接成一条链， 所有请求都会严格按照顺序通过链上的处理者。</p><p> 如果所需处理者及其顺序必须在运行时进行改变， 可以使用责任链模式。</p><p> 如果在处理者类中有对引用成员变量的设定方法， 你将能动态地插入和移除处理者， 或者改变其顺序。</p><h2 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h2><ol><li>声明处理者接口并描述请求处理方法的签名。<br> 确定客户端如何将请求数据传递给方法。 最灵活的方式是将请求转换为对象， 然后将其以参数的形式传递给处理函数。</li><li>为了在具体处理者中消除重复的样本代码， 你可以根据处理者接口创建抽象处理者基类。<br> 该类需要有一个成员变量来存储指向链上下个处理者的引用。 你可以将其设置为不可变类。 但如果你打算在运行时对链进行改变， 则需要定义一个设定方法来修改引用成员变量的值。<br> 为了使用方便， 你还可以实现处理方法的默认行为。 如果还有剩余对象， 该方法会将请求传递给下个对象。 具体处理者还能够通过调用父对象的方法来使用这一行为。</li><li>依次创建具体处理者子类并实现其处理方法。 每个处理者在接收到请求后都必须做出两个决定：<ul><li>是否自行处理这个请求。</li><li>是否将该请求沿着链进行传递。</li></ul></li><li>客户端可以自行组装链， 或者从其他对象处获得预先组装好的链。 在后一种情况下， 你必须实现工厂类以根据配置或环境设置来创建链。</li><li>客户端可以触发链中的任意处理者， 而不仅仅是第一个。 请求将通过链进行传递， 直至某个处理者拒绝继续传递， 或者请求到达链尾。</li><li>由于链的动态性， 客户端需要准备好处理以下情况：<ul><li>链中可能只有单个链接。</li><li>部分请求可能无法到达链尾。</li><li>其他请求可能直到链尾都未被处理。</li></ul></li></ol><h2 id="责任链模式优缺点"><a href="#责任链模式优缺点" class="headerlink" title="责任链模式优缺点"></a>责任链模式优缺点</h2><ul><li>你可以控制请求处理的顺序。</li><li><em>单一职责原则</em>。 你可对发起操作和执行操作的类进行解耦。</li><li><em>开闭原则</em>。 你可以在不更改现有代码的情况下在程序中新增处理者。</li><li>部分请求可能未被处理。</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/10%20Visitor/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/10%20Visitor/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -304,10 +343,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/7%20State/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/7%20State/</url>
+      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/11%20Summary/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/11%20Summary/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>行为模式负责对象间的高效沟通和职责委派。</p>]]></content>
       
       
       
@@ -356,6 +395,19 @@
     
     <entry>
       <title></title>
+      <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/7%20Proxy/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/7%20Proxy/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/5%20Facade/"/>
       <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/5%20Facade/</url>
       
@@ -382,86 +434,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/7%20Proxy/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/7%20Proxy/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/1%20Chain%20of%20Responsibility/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/1%20Chain%20of%20Responsibility/</url>
-      
-        <content type="html"><![CDATA[<h2 id="意图"><a href="#意图" class="headerlink" title="意图"></a>意图</h2><p><strong>责任链模式</strong>是一种行为设计模式， 允许你将请求沿着处理者链进行发送。 收到请求后， 每个处理者均可对请求进行处理， 或将其传递给链上的下个处理者。</p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>与许多其他行为设计模式一样， <strong>责任链</strong>会将特定行为转换为被称作<em>处理者</em>的独立对象。 在上述示例中， 每个检查步骤都可被抽取为仅有单个方法的类， 并执行检查操作。 请求及其数据则会被作为参数传递给该方法。</p><p>模式建议你将这些处理者连成一条链。 链上的每个处理者都有一个成员变量来保存对于下一处理者的引用。 除了处理请求外， 处理者还负责沿着链传递请求。 请求会在链上移动， 直至所有处理者都有机会对其进行处理。</p><p>最重要的是： 处理者可以决定不再沿着链传递请求， 这可高效地取消所有后续处理步骤。</p><p>所有处理者类均实现同一接口是关键所在。 每个具体处理者仅关心下一个包含 <code>execute</code>执行方法的处理者。 这样一来， 你就可以在运行时使用不同的处理者来创建链， 而无需将相关代码与处理者的具体类进行耦合。</p><h2 id="责任链模式适合应用场景"><a href="#责任链模式适合应用场景" class="headerlink" title="责任链模式适合应用场景"></a>责任链模式适合应用场景</h2><p> 当程序需要使用不同方式处理不同种类请求， 而且请求类型和顺序预先未知时， 可以使用责任链模式。</p><p> 该模式能将多个处理者连接成一条链。 接收到请求后， 它会 “询问” 每个处理者是否能够对其进行处理。 这样所有处理者都有机会来处理请求。</p><p> 当必须按顺序执行多个处理者时， 可以使用该模式。</p><p> 无论你以何种顺序将处理者连接成一条链， 所有请求都会严格按照顺序通过链上的处理者。</p><p> 如果所需处理者及其顺序必须在运行时进行改变， 可以使用责任链模式。</p><p> 如果在处理者类中有对引用成员变量的设定方法， 你将能动态地插入和移除处理者， 或者改变其顺序。</p><h2 id="实现方式"><a href="#实现方式" class="headerlink" title="实现方式"></a>实现方式</h2><ol><li>声明处理者接口并描述请求处理方法的签名。<br> 确定客户端如何将请求数据传递给方法。 最灵活的方式是将请求转换为对象， 然后将其以参数的形式传递给处理函数。</li><li>为了在具体处理者中消除重复的样本代码， 你可以根据处理者接口创建抽象处理者基类。<br> 该类需要有一个成员变量来存储指向链上下个处理者的引用。 你可以将其设置为不可变类。 但如果你打算在运行时对链进行改变， 则需要定义一个设定方法来修改引用成员变量的值。<br> 为了使用方便， 你还可以实现处理方法的默认行为。 如果还有剩余对象， 该方法会将请求传递给下个对象。 具体处理者还能够通过调用父对象的方法来使用这一行为。</li><li>依次创建具体处理者子类并实现其处理方法。 每个处理者在接收到请求后都必须做出两个决定：<ul><li>是否自行处理这个请求。</li><li>是否将该请求沿着链进行传递。</li></ul></li><li>客户端可以自行组装链， 或者从其他对象处获得预先组装好的链。 在后一种情况下， 你必须实现工厂类以根据配置或环境设置来创建链。</li><li>客户端可以触发链中的任意处理者， 而不仅仅是第一个。 请求将通过链进行传递， 直至某个处理者拒绝继续传递， 或者请求到达链尾。</li><li>由于链的动态性， 客户端需要准备好处理以下情况：<ul><li>链中可能只有单个链接。</li><li>部分请求可能无法到达链尾。</li><li>其他请求可能直到链尾都未被处理。</li></ul></li></ol><h2 id="责任链模式优缺点"><a href="#责任链模式优缺点" class="headerlink" title="责任链模式优缺点"></a>责任链模式优缺点</h2><ul><li>你可以控制请求处理的顺序。</li><li><em>单一职责原则</em>。 你可对发起操作和执行操作的类进行解耦。</li><li><em>开闭原则</em>。 你可以在不更改现有代码的情况下在程序中新增处理者。</li><li>部分请求可能未被处理。</li></ul>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/11%20Summary/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/11%20Summary/</url>
-      
-        <content type="html"><![CDATA[<p>行为模式负责对象间的高效沟通和职责委派。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/10%20Visitor/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/3%20Behavioral/10%20Visitor/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/1%20Factory%20Method%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/1%20Factory%20Method%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95/</url>
-      
-        <content type="html"><![CDATA[<h1 id="意图"><a href="#意图" class="headerlink" title="意图"></a>意图</h1><p>在父类中提供一个创建对象的方法，允许子类决定实例化对象的类型。</p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/3%20Builder/"/>
       <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/3%20Builder/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/5%20Singleton/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/5%20Singleton/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -486,8 +460,34 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/1%20Adapter/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/1%20Adapter/</url>
+      <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/4%20Prototype/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/4%20Prototype/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/1%20Factory%20Method%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/1%20Factory%20Method%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95/</url>
+      
+        <content type="html"><![CDATA[<h1 id="意图"><a href="#意图" class="headerlink" title="意图"></a>意图</h1><p>在父类中提供一个创建对象的方法，允许子类决定实例化对象的类型。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/5%20Singleton/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/5%20Singleton/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -512,8 +512,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/2%20Bridge/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/2%20Bridge/</url>
+      <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/1%20Adapter/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/1%20Adapter/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -525,8 +525,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Programing/Design%20Pattern/1%20Creational/4%20Prototype/"/>
-      <url>/2024/12/28/Programing/Design%20Pattern/1%20Creational/4%20Prototype/</url>
+      <link href="/2024/12/28/Programing/Design%20Pattern/2%20Structural/2%20Bridge/"/>
+      <url>/2024/12/28/Programing/Design%20Pattern/2%20Structural/2%20Bridge/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -551,19 +551,6 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Operating%20system/1%20Overview/"/>
-      <url>/2024/12/28/Base%20Knowledge/Operating%20system/1%20Overview/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/2024/12/28/Base%20Knowledge/Operating%20system/2%20%E5%B9%B6%E5%8F%91/"/>
       <url>/2024/12/28/Base%20Knowledge/Operating%20system/2%20%E5%B9%B6%E5%8F%91/</url>
       
@@ -577,8 +564,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Operating%20system/4%20%E5%86%85%E6%A0%B8/"/>
-      <url>/2024/12/28/Base%20Knowledge/Operating%20system/4%20%E5%86%85%E6%A0%B8/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Operating%20system/3%20%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
+      <url>/2024/12/28/Base%20Knowledge/Operating%20system/3%20%E8%99%9A%E6%8B%9F%E5%8C%96/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -590,8 +577,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Operating%20system/3%20%E8%99%9A%E6%8B%9F%E5%8C%96/"/>
-      <url>/2024/12/28/Base%20Knowledge/Operating%20system/3%20%E8%99%9A%E6%8B%9F%E5%8C%96/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Operating%20system/4%20%E5%86%85%E6%A0%B8/"/>
+      <url>/2024/12/28/Base%20Knowledge/Operating%20system/4%20%E5%86%85%E6%A0%B8/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -629,10 +616,23 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Network/2%20Application%20Layer/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Network/2%20Application%20Layer/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Operating%20system/1%20Overview/"/>
+      <url>/2024/12/28/Base%20Knowledge/Operating%20system/1%20Overview/</url>
       
-        <content type="html"><![CDATA[<h1 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h1><h1 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h1><h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Network/1%20Overview/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Network/1%20Overview/</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -668,8 +668,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Network/1%20Overview/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Network/1%20Overview/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -681,10 +681,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Network/2%20Application%20Layer/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Network/2%20Application%20Layer/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1 id="DNS"><a href="#DNS" class="headerlink" title="DNS"></a>DNS</h1><h1 id="HTTP"><a href="#HTTP" class="headerlink" title="HTTP"></a>HTTP</h1><h2 id=""><a href="#" class="headerlink" title=" "></a> </h2>]]></content>
       
       
       
@@ -707,10 +707,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%8A%97%E9%94%AF%E9%BD%BF%E4%B8%8E%E8%B6%85%E9%87%87%E6%A0%B7/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%8A%97%E9%94%AF%E9%BD%BF%E4%B8%8E%E8%B6%85%E9%87%87%E6%A0%B7/</url>
       
-        <content type="html"><![CDATA[<h1 id="cascaded-shading"><a href="#cascaded-shading" class="headerlink" title="cascaded shading"></a>cascaded shading</h1><h1 id="tiled-shading"><a href="#tiled-shading" class="headerlink" title="tiled shading"></a>tiled shading</h1><h1 id="deferred-shading"><a href="#deferred-shading" class="headerlink" title="deferred shading"></a>deferred shading</h1><h1 id="particles"><a href="#particles" class="headerlink" title="particles"></a>particles</h1>]]></content>
+        <content type="html"><![CDATA[<h1 id="TAA"><a href="#TAA" class="headerlink" title="TAA"></a>TAA</h1><h1 id="SMAA"><a href="#SMAA" class="headerlink" title="SMAA"></a>SMAA</h1><h1 id="DLSS"><a href="#DLSS" class="headerlink" title="DLSS"></a>DLSS</h1>]]></content>
       
       
       
@@ -720,10 +720,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%98%B4%E5%BD%B1/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%98%B4%E5%BD%B1/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/</url>
       
-        <content type="html"><![CDATA[<h1 id="shadow-mapping"><a href="#shadow-mapping" class="headerlink" title="shadow mapping"></a>shadow mapping</h1><h1 id="VSM"><a href="#VSM" class="headerlink" title="VSM"></a>VSM</h1><h1 id="moment-shadow-maps"><a href="#moment-shadow-maps" class="headerlink" title="moment shadow maps"></a>moment shadow maps</h1><h1 id="PCSS"><a href="#PCSS" class="headerlink" title="PCSS"></a>PCSS</h1><h1 id="SDF-Shadows"><a href="#SDF-Shadows" class="headerlink" title="SDF Shadows"></a>SDF Shadows</h1>]]></content>
+        <content type="html"><![CDATA[<h1 id="cascaded-shading"><a href="#cascaded-shading" class="headerlink" title="cascaded shading"></a>cascaded shading</h1><h1 id="tiled-shading"><a href="#tiled-shading" class="headerlink" title="tiled shading"></a>tiled shading</h1><h1 id="deferred-shading"><a href="#deferred-shading" class="headerlink" title="deferred shading"></a>deferred shading</h1><h1 id="particles"><a href="#particles" class="headerlink" title="particles"></a>particles</h1>]]></content>
       
       
       
@@ -746,10 +746,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%98%B4%E5%BD%B1/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%98%B4%E5%BD%B1/</url>
       
-        <content type="html"><![CDATA[<h1 id="表面模型"><a href="#表面模型" class="headerlink" title="表面模型"></a>表面模型</h1><h2 id="Disney-principled-BRDF"><a href="#Disney-principled-BRDF" class="headerlink" title="Disney principled BRDF"></a>Disney principled BRDF</h2><h2 id="GGX"><a href="#GGX" class="headerlink" title="GGX"></a>GGX</h2><h2 id="LTC"><a href="#LTC" class="headerlink" title="LTC"></a>LTC</h2><h1 id="散射模型"><a href="#散射模型" class="headerlink" title="散射模型"></a>散射模型</h1><h1 id="participating-media"><a href="#participating-media" class="headerlink" title="participating media"></a>participating media</h1><h1 id="NPR"><a href="#NPR" class="headerlink" title="NPR"></a>NPR</h1><h1 id="复杂模型"><a href="#复杂模型" class="headerlink" title="复杂模型"></a>复杂模型</h1><h1 id="BSSRDF"><a href="#BSSRDF" class="headerlink" title="BSSRDF"></a>BSSRDF</h1><h1 id="hair"><a href="#hair" class="headerlink" title="hair"></a>hair</h1><h1 id="skin"><a href="#skin" class="headerlink" title="skin"></a>skin</h1>]]></content>
+        <content type="html"><![CDATA[<h1 id="shadow-mapping"><a href="#shadow-mapping" class="headerlink" title="shadow mapping"></a>shadow mapping</h1><h1 id="VSM"><a href="#VSM" class="headerlink" title="VSM"></a>VSM</h1><h1 id="moment-shadow-maps"><a href="#moment-shadow-maps" class="headerlink" title="moment shadow maps"></a>moment shadow maps</h1><h1 id="PCSS"><a href="#PCSS" class="headerlink" title="PCSS"></a>PCSS</h1><h1 id="SDF-Shadows"><a href="#SDF-Shadows" class="headerlink" title="SDF Shadows"></a>SDF Shadows</h1>]]></content>
       
       
       
@@ -759,10 +759,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%8A%97%E9%94%AF%E9%BD%BF%E4%B8%8E%E8%B6%85%E9%87%87%E6%A0%B7/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%8A%97%E9%94%AF%E9%BD%BF%E4%B8%8E%E8%B6%85%E9%87%87%E6%A0%B7/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/</url>
       
-        <content type="html"><![CDATA[<h1 id="TAA"><a href="#TAA" class="headerlink" title="TAA"></a>TAA</h1><h1 id="SMAA"><a href="#SMAA" class="headerlink" title="SMAA"></a>SMAA</h1><h1 id="DLSS"><a href="#DLSS" class="headerlink" title="DLSS"></a>DLSS</h1>]]></content>
+        <content type="html"><![CDATA[<h1 id="表面模型"><a href="#表面模型" class="headerlink" title="表面模型"></a>表面模型</h1><h2 id="Disney-principled-BRDF"><a href="#Disney-principled-BRDF" class="headerlink" title="Disney principled BRDF"></a>Disney principled BRDF</h2><h2 id="GGX"><a href="#GGX" class="headerlink" title="GGX"></a>GGX</h2><h2 id="LTC"><a href="#LTC" class="headerlink" title="LTC"></a>LTC</h2><h1 id="散射模型"><a href="#散射模型" class="headerlink" title="散射模型"></a>散射模型</h1><h1 id="participating-media"><a href="#participating-media" class="headerlink" title="participating media"></a>participating media</h1><h1 id="NPR"><a href="#NPR" class="headerlink" title="NPR"></a>NPR</h1><h1 id="复杂模型"><a href="#复杂模型" class="headerlink" title="复杂模型"></a>复杂模型</h1><h1 id="BSSRDF"><a href="#BSSRDF" class="headerlink" title="BSSRDF"></a>BSSRDF</h1><h1 id="hair"><a href="#hair" class="headerlink" title="hair"></a>hair</h1><h1 id="skin"><a href="#skin" class="headerlink" title="skin"></a>skin</h1>]]></content>
       
       
       
@@ -811,8 +811,21 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E5%88%9A%E4%BD%93/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E5%88%9A%E4%BD%93/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E6%B5%81%E4%BD%93/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E6%B5%81%E4%BD%93/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E8%B4%A8%E7%82%B9-%E5%BC%B9%E7%B0%A7%E7%B3%BB%E7%BB%9F/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E8%B4%A8%E7%82%B9-%E5%BC%B9%E7%B0%A7%E7%B3%BB%E7%BB%9F/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -837,8 +850,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E6%B5%81%E4%BD%93/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E6%B5%81%E4%BD%93/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E5%88%9A%E4%BD%93/"/>
+      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E5%88%9A%E4%BD%93/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -854,19 +867,6 @@
       <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</url>
       
         <content type="html"><![CDATA[<h1 id="backprojection"><a href="#backprojection" class="headerlink" title="backprojection"></a>backprojection</h1><h1 id="motion-vector"><a href="#motion-vector" class="headerlink" title="motion vector"></a>motion vector</h1><h1 id="joint-bilateral-filtering"><a href="#joint-bilateral-filtering" class="headerlink" title="joint bilateral filtering"></a>joint bilateral filtering</h1><h1 id="temporal-accumulation"><a href="#temporal-accumulation" class="headerlink" title="temporal accumulation"></a>temporal accumulation</h1><h1 id="denoising"><a href="#denoising" class="headerlink" title="denoising"></a>denoising</h1><h1 id="svgf"><a href="#svgf" class="headerlink" title="svgf"></a>svgf</h1><h1 id="rae"><a href="#rae" class="headerlink" title="rae"></a>rae</h1>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E8%B4%A8%E7%82%B9-%E5%BC%B9%E7%B0%A7%E7%B3%BB%E7%BB%9F/"/>
-      <url>/2024/12/28/Base%20Knowledge/Computer%20Graphics/Animation/%E8%B4%A8%E7%82%B9-%E5%BC%B9%E7%B0%A7%E7%B3%BB%E7%BB%9F/</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -980,6 +980,19 @@
     
     <entry>
       <title></title>
+      <link href="/2024/12/28/Unreal%20Engine/Rendering/Empty/"/>
+      <url>/2024/12/28/Unreal%20Engine/Rendering/Empty/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2024/12/28/Unreal%20Engine/Physics/Empty/"/>
       <url>/2024/12/28/Unreal%20Engine/Physics/Empty/</url>
       
@@ -1019,19 +1032,6 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/UI/Empty/"/>
-      <url>/2024/12/28/Unreal%20Engine/UI/Empty/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/2024/12/28/Unreal%20Engine/Sounds/Empty/"/>
       <url>/2024/12/28/Unreal%20Engine/Sounds/Empty/</url>
       
@@ -1045,21 +1045,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/Rendering/Empty/"/>
-      <url>/2024/12/28/Unreal%20Engine/Rendering/Empty/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Replication/Significance%20Manager/"/>
-      <url>/2024/12/28/Unreal%20Engine/GamePlay/Replication/Significance%20Manager/</url>
+      <link href="/2024/12/28/Unreal%20Engine/UI/Empty/"/>
+      <url>/2024/12/28/Unreal%20Engine/UI/Empty/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1073,6 +1060,19 @@
       <title></title>
       <link href="/2024/12/28/Unreal%20Engine/GamePlay/Replication/Replication%20Graph/"/>
       <url>/2024/12/28/Unreal%20Engine/GamePlay/Replication/Replication%20Graph/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Replication/Significance%20Manager/"/>
+      <url>/2024/12/28/Unreal%20Engine/GamePlay/Replication/Significance%20Manager/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1110,10 +1110,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAbilityTask/"/>
-      <url>/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAbilityTask/</url>
+      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAttributeSet/"/>
+      <url>/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAttributeSet/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>在游戏机制中具有特定含义的一系列属性或数值。<br>属性可以代表游戏资源，例如”生命值（Health）”、可以影响其他游戏规则的参考值，例如”基础攻击力（Base Attack Power）”，甚至可以代表无状态量，例如”施加的伤害（Applied Damage）”。<br>属性集（Attribute Sets）负责定义、管理、复制一个或多个属性（Attribute）的属性值。</p>]]></content>
       
       
       
@@ -1123,10 +1123,10 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAttributeSet/"/>
-      <url>/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAttributeSet/</url>
+      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAbilityTask/"/>
+      <url>/2024/12/28/Unreal%20Engine/GamePlay/Game%20Ability%20System/UAbilityTask/</url>
       
-        <content type="html"><![CDATA[<p>在游戏机制中具有特定含义的一系列属性或数值。<br>属性可以代表游戏资源，例如”生命值（Health）”、可以影响其他游戏规则的参考值，例如”基础攻击力（Base Attack Power）”，甚至可以代表无状态量，例如”施加的伤害（Applied Damage）”。<br>属性集（Attribute Sets）负责定义、管理、复制一个或多个属性（Attribute）的属性值。</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       
@@ -1149,6 +1149,19 @@
     
     <entry>
       <title></title>
+      <link href="/2024/12/28/Unreal%20Engine/Editor%20Extension/Empty/"/>
+      <url>/2024/12/28/Unreal%20Engine/Editor%20Extension/Empty/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2024/12/28/Unreal%20Engine/Debug/Empty/"/>
       <url>/2024/12/28/Unreal%20Engine/Debug/Empty/</url>
       
@@ -1162,8 +1175,21 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/Editor%20Extension/Empty/"/>
-      <url>/2024/12/28/Unreal%20Engine/Editor%20Extension/Empty/</url>
+      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/"/>
+      <url>/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameStateBase/"/>
+      <url>/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameStateBase/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1201,21 +1227,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/"/>
-      <url>/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameStateBase/"/>
-      <url>/2024/12/28/Unreal%20Engine/GamePlay/Framwork/AGameStateBase/</url>
+      <link href="/2024/12/28/Unreal%20Engine/Core/UObject/"/>
+      <url>/2024/12/28/Unreal%20Engine/Core/UObject/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1242,19 +1255,6 @@
       <title></title>
       <link href="/2024/12/28/Unreal%20Engine/Asset&amp;Pak&amp;Patch/Empty/"/>
       <url>/2024/12/28/Unreal%20Engine/Asset&amp;Pak&amp;Patch/Empty/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Unreal%20Engine/Core/UObject/"/>
-      <url>/2024/12/28/Unreal%20Engine/Core/UObject/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1370,21 +1370,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Linear/Empty/"/>
-      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Linear/Empty/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Hash/Empty/"/>
-      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Hash/Empty/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Tree/Traverse/"/>
+      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Tree/Traverse/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1409,6 +1396,19 @@
     
     <entry>
       <title></title>
+      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Linear/Empty/"/>
+      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Linear/Empty/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/String/Empty/"/>
       <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/String/Empty/</url>
       
@@ -1422,8 +1422,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Tree/Traverse/"/>
-      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Tree/Traverse/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Hash/Empty/"/>
+      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Hash/Empty/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1513,8 +1513,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Recursion%20&amp;%20Divide%20and%20Conquer/"/>
-      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Recursion%20&amp;%20Divide%20and%20Conquer/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Greedy/"/>
+      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Greedy/</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1526,8 +1526,8 @@
     
     <entry>
       <title></title>
-      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Greedy/"/>
-      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Greedy/</url>
+      <link href="/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Recursion%20&amp;%20Divide%20and%20Conquer/"/>
+      <url>/2024/12/28/Base%20Knowledge/Data%20Structures%20&amp;%20Algorithm/Basic%20Algorithm/Recursion%20&amp;%20Divide%20and%20Conquer/</url>
       
         <content type="html"><![CDATA[]]></content>
       
