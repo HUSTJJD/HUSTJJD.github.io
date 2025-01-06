@@ -2480,10 +2480,10 @@
     
     <entry>
       <title>[object Object]</title>
-      <link href="/2025/01/04/Programing/Design%20Pattern/2%20Structural/7%20Proxy/"/>
-      <url>/2025/01/04/Programing/Design%20Pattern/2%20Structural/7%20Proxy/</url>
+      <link href="/2025/01/04/Programing/Design%20Pattern/2%20Structural/8%20Summary/"/>
+      <url>/2025/01/04/Programing/Design%20Pattern/2%20Structural/8%20Summary/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>结构型模式介绍如何将对象和类组装成较大的结构，并同时保持结构的灵活和高效。</p>]]></content>
       
       
       <categories>
@@ -2503,10 +2503,10 @@
     
     <entry>
       <title>[object Object]</title>
-      <link href="/2025/01/04/Programing/Design%20Pattern/2%20Structural/8%20Summary/"/>
-      <url>/2025/01/04/Programing/Design%20Pattern/2%20Structural/8%20Summary/</url>
+      <link href="/2025/01/04/Programing/Design%20Pattern/2%20Structural/7%20Proxy/"/>
+      <url>/2025/01/04/Programing/Design%20Pattern/2%20Structural/7%20Proxy/</url>
       
-        <content type="html"><![CDATA[<p>结构型模式介绍如何将对象和类组装成较大的结构，并同时保持结构的灵活和高效。</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
