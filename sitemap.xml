@@ -2,6 +2,69 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hustjjd.github.io/2025/01/07/Work%20Experience/Z%20Reference%20Link/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Efficiency/UE%20Project%20Git%20Pull&Build/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Serialization/Json/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Security/%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Serialization/Protobuf/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/about/index.html</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/categories/index.html</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hustjjd.github.io/movies/index.html</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -30,15 +93,6 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Z%20Reference%20Link/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/07/Work%20Experience/Z%20Reference%20Link/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -110,105 +164,6 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Efficiency/UE%20Project%20Git%20Pull&Build/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Security/%E5%93%88%E5%B8%8C%E5%87%BD%E6%95%B0/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Serialization/Json/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Work%20Experience/Serialization/Protobuf/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/about/index.html</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/categories/index.html</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Animation/%E5%8A%A8%E7%94%BB%E7%8A%B6%E6%80%81%E6%9C%BA/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Asset&Pak&Patch/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Core/UObject/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Debug/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Editor%20Extension/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hustjjd.github.io/2025/01/07/Unreal%20Engine/Physics/Empty/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -228,33 +183,6 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/07/Unreal%20Engine/Platform/Unreal%20Plugin%20Language/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Framwork/AGameStateBase/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Game%20Ability%20System/AGameplayCueNotify_Actor/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -299,15 +227,6 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Game%20Ability%20System/UGameplayAbility/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Game%20Ability%20System/UGameplayEffect/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -336,6 +255,114 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Replication/Significance%20Manager/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Game%20Ability%20System/UGameplayAbility/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Asset&Pak&Patch/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Animation/%E5%8A%A8%E7%94%BB%E7%8A%B6%E6%80%81%E6%9C%BA/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Core/UObject/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Debug/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/Editor%20Extension/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/BehaviorTree/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/EnvironmentQuery/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/NavMesh/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Framwork/AGameStateBase/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Game%20Ability%20System/AGameplayCueNotify_Actor/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -443,69 +470,6 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/12%20Summary/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/2%20Command/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/3%20Iterator/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/4%20Mediator/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/5%20Memento/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/6%20Observer/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/7%20State/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/8%20Strategy/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -516,132 +480,6 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/9%20Template%20Method/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/EnvironmentQuery/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/BehaviorTree/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/NavMesh/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/C#/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/C&C++/C++%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/C&C++/%E5%AE%9E%E7%8E%B0%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Code%20Style/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Cuda/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/1%20Factory%20Method%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/2%20Abstract%20Factory/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/3%20Builder/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/4%20Prototype/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/5%20Singleton/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/6%20Summary/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -749,7 +587,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Z%20Reference%20Link/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/12%20Summary/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -758,7 +596,160 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Organization/Empty/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/2%20Command/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/3%20Iterator/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/4%20Mediator/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/5%20Memento/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/6%20Observer/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/7%20State/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/C#/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/C&C++/C++%E5%AF%B9%E8%B1%A1%E6%A8%A1%E5%9E%8B/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/C&C++/%E5%AE%9E%E7%8E%B0%E5%8F%8C%E7%AB%AF%E9%98%9F%E5%88%97/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Code%20Style/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Cuda/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/1%20Factory%20Method%20%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/2%20Abstract%20Factory/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/3%20Builder/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/4%20Prototype/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/6%20Summary/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/5%20Singleton/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Z%20Reference%20Link/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -804,6 +795,150 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Operating%20system/5%20%E6%8C%81%E4%B9%85%E5%8C%96/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Graph/Traverse/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Hash/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Misc/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Linear/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/String/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Tree/Traverse/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/1%20Overview/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/2%20Application%20Layer/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/3%20Transport%20Layer/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/4%20Network%20Layer/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Organization/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E7%8E%AF%E5%A2%83%E5%85%89%E7%85%A7/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%98%B4%E5%BD%B1/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Dynamic%20Programming/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -875,69 +1010,6 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Dynamic%20Programming/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Graph/Traverse/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Hash/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Linear/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Misc/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/String/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Tree/Traverse/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/1%20Overview/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -947,7 +1019,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/2%20Lexical%20Analysis/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/3%20Syntax%20Analysis/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -956,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/3%20Syntax%20Analysis/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/2%20Lexical%20Analysis/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -983,51 +1055,6 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/1%20Overview/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/2%20Application%20Layer/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/3%20Transport%20Layer/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/4%20Network%20Layer/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Artificial%20Intelligence/Generative%20AI/Empty/</loc>
     
     <lastmod>2025-08-09</lastmod>
@@ -1038,6 +1065,51 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Artificial%20Intelligence/Reinforcement%20Learning/Empty/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E5%85%A8%E5%B1%80%E5%85%89%E7%85%A7/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%8A%97%E9%94%AF%E9%BD%BF%E4%B8%8E%E8%B6%85%E9%87%87%E6%A0%B7/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/</loc>
+    
+    <lastmod>2025-08-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Geometry/Empty/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -1074,78 +1146,6 @@
   
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Animation/%E8%B4%A8%E7%82%B9-%E5%BC%B9%E7%B0%A7%E7%B3%BB%E7%BB%9F/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Geometry/Empty/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E5%85%A8%E5%B1%80%E5%85%89%E7%85%A7/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%8A%97%E9%94%AF%E9%BD%BF%E4%B8%8E%E8%B6%85%E9%87%87%E6%A0%B7/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E6%B8%B2%E6%9F%93%E4%B8%AD%E7%9A%84%E5%B7%A5%E4%B8%9A%E7%95%8C%E6%8A%80%E6%9C%AF/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E7%8E%AF%E5%A2%83%E5%85%89%E7%85%A7/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%98%B4%E5%BD%B1/</loc>
-    
-    <lastmod>2025-08-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/</loc>
     
     <lastmod>2025-08-09</lastmod>
     
@@ -1284,14 +1284,14 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Unreal-Engine/Animation/</loc>
+    <loc>https://hustjjd.github.io/categories/Unreal-Engine/Asset-Pak-Patch/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Unreal-Engine/Asset-Pak-Patch/</loc>
+    <loc>https://hustjjd.github.io/categories/Unreal-Engine/Animation/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1375,14 +1375,14 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Work-Experience/Security/</loc>
+    <loc>https://hustjjd.github.io/categories/Work-Experience/Serialization/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Work-Experience/Serialization/</loc>
+    <loc>https://hustjjd.github.io/categories/Work-Experience/Security/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1445,7 +1445,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Computer-Graphics/Animation/</loc>
+    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Computer-Graphics/Rendering/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1459,14 +1459,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Computer-Graphics/Rendering/</loc>
-    <lastmod>2025-08-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Data-Structures-Algorithm/Basic-Algorithm/</loc>
+    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Computer-Graphics/Animation/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1494,14 +1487,14 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Data-Structures-Algorithm/Linear/</loc>
+    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Data-Structures-Algorithm/Misc/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Data-Structures-Algorithm/Misc/</loc>
+    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Data-Structures-Algorithm/Linear/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1522,7 +1515,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Programing/Design-Pattern/1-Creational/</loc>
+    <loc>https://hustjjd.github.io/categories/Base-Knowledge/Data-Structures-Algorithm/Basic-Algorithm/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1543,7 +1536,7 @@
   </url>
   
   <url>
-    <loc>https://hustjjd.github.io/categories/Unreal-Engine/AI/EnvironmentQuery/</loc>
+    <loc>https://hustjjd.github.io/categories/Programing/Design-Pattern/1-Creational/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1551,6 +1544,13 @@
   
   <url>
     <loc>https://hustjjd.github.io/categories/Unreal-Engine/AI/BehaviorTree/</loc>
+    <lastmod>2025-08-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://hustjjd.github.io/categories/Unreal-Engine/AI/EnvironmentQuery/</loc>
     <lastmod>2025-08-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
