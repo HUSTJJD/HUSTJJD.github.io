@@ -85,14 +85,6 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/EnvironmentQuery/Empty/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/NavMesh/Empty/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/GamePlay/Framwork/AGameModeBase/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
@@ -149,11 +141,11 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Lua/2%20Lua%205.x%E7%B2%BE%E8%A6%81%E6%80%BB%E7%BB%93/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Lua/1%20Overview/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Lua/1%20Overview/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Lua/2%20Lua%205.x%E7%B2%BE%E8%A6%81%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -185,18 +177,6 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/1%20Chain%20of%20Responsibility/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/10%20Visitor/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/11%20Interpreter/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/12%20Summary/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
@@ -225,11 +205,15 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/8%20Strategy/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/9%20Template%20Method/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/8%20Strategy/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/EnvironmentQuery/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -237,11 +221,7 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Z%20Reference%20Link/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Operating%20system/5%20%E6%8C%81%E4%B9%85%E5%8C%96/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Unreal%20Engine/AI/NavMesh/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -273,15 +253,15 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/3%20Builder/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/4%20Prototype/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/5%20Singleton/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/1%20Creational/3%20Builder/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -321,11 +301,19 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/4%20Network%20Layer/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/1%20Chain%20of%20Responsibility/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/10%20Visitor/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Programing/Design%20Pattern/3%20Behavioral/11%20Interpreter/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Z%20Reference%20Link/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -346,6 +334,10 @@
   </url>
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Operating%20system/4%20%E5%86%85%E6%A0%B8/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Operating%20system/5%20%E6%8C%81%E4%B9%85%E5%8C%96/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -381,6 +373,10 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Graph/Traverse/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Hash/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
@@ -390,10 +386,6 @@
   </url>
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Misc/Empty/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Data%20Structures%20&%20Algorithm/Graph/Traverse/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -417,11 +409,11 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/5%20Intermediate%20Code%20Generation/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/4%20Syntax-Directed%20Translation/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/4%20Syntax-Directed%20Translation/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Compilation%20Principle/5%20Intermediate%20Code%20Generation/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -437,15 +429,23 @@
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/4%20Network%20Layer/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Network/5%20Link%20Layer/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Artificial%20Intelligence/Generative%20AI/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Animation/%E5%88%9A%E4%BD%93/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Artificial%20Intelligence/Reinforcement%20Learning/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Artificial%20Intelligence/Reinforcement%20Learning/Empty/</loc>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Animation/%E5%88%9A%E4%BD%93/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -458,6 +458,10 @@
   </url>
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Animation/%E8%B4%A8%E7%82%B9-%E5%BC%B9%E7%B0%A7%E7%B3%BB%E7%BB%9F/</loc>
+    <lastmod>2025-08-09</lastmod>
+  </url>
+  <url>
+    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Geometry/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
   <url>
@@ -486,10 +490,6 @@
   </url>
   <url>
     <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Rendering/%E5%AE%9E%E6%97%B6%E9%AB%98%E8%B4%A8%E9%87%8F%E7%9D%80%E8%89%B2/</loc>
-    <lastmod>2025-08-09</lastmod>
-  </url>
-  <url>
-    <loc>https://hustjjd.github.io/2025/01/04/Base%20Knowledge/Computer%20Graphics/Geometry/Empty/</loc>
     <lastmod>2025-08-09</lastmod>
   </url>
 </urlset> 
