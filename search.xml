@@ -4,22 +4,12 @@
   
     
     <entry>
-      <title>12 Summary</title>
-      <link href="/1f38bf3.html"/>
-      <url>/1f38bf3.html</url>
+      <title>Games102</title>
+      <link href="/c5b150d3.html"/>
+      <url>/c5b150d3.html</url>
       
-        <content type="html"><![CDATA[<p>行为模式负责对象间的高效沟通和职责委派。</p>]]></content>
+        <content type="html"><![CDATA[<h1><span id></span></h1>]]></content>
       
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 3 Behavioral </category>
-          
-      </categories>
       
       
     </entry>
@@ -27,11 +17,24 @@
     
     
     <entry>
-      <title>11 Interpreter</title>
-      <link href="/78952bdb.html"/>
-      <url>/78952bdb.html</url>
+      <title>Games101</title>
+      <link href="/5cb80169.html"/>
+      <url>/5cb80169.html</url>
       
-        <content type="html"><![CDATA[<p>解释器模式：<br>特定领域的问题复杂，类似的结构重复出现。<br>将问题表达为 某种语法规则 下的句子，构建解释器来解释这样的句子。<br>给定一个语言，定义它的文法的一种表示，并定义一种解释器，这个解释器使用该表示来解释语言中的句子。<br>（最常见的是实现一个 console ，复杂情况其实就是实现一个动态语言）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">伪代码不想写了，好累。。。</span><br><span class="line">详见</span><br><span class="line">Lua源码吧。</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1><span id></span></h1>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>12 Summary</title>
+      <link href="/1f38bf3.html"/>
+      <url>/1f38bf3.html</url>
+      
+        <content type="html"><![CDATA[<p>行为模式负责对象间的高效沟通和职责委派。</p>]]></content>
       
       
       <categories>
@@ -73,11 +76,11 @@
     
     
     <entry>
-      <title>10 Visitor</title>
-      <link href="/2bc82489.html"/>
-      <url>/2bc82489.html</url>
+      <title>11 Interpreter</title>
+      <link href="/78952bdb.html"/>
+      <url>/78952bdb.html</url>
       
-        <content type="html"><![CDATA[<p>访问器模式：</p><p>由于需求改变，类层次结构常需要增加新的行为，直接修改基类会增加子类负担。<br>在 不改变类层次结构 的前提下，运行时为各个类动态添加新的操作。<br>子类是需要先预知的。<br>能够修改的操作是有限的。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Visitor</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">AcceptVisitor</span><span class="params">(Visitor* visitor)</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Visitor</span>();</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractA</span> : <span class="keyword">public</span> Abstract &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">AcceptVisitor</span><span class="params">(Visitor* visitor)</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line">visitor.<span class="built_in">ModifyAbstractA</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractB</span> : <span class="keyword">public</span> Abstract &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">AcceptVisitor</span><span class="params">(Visitor* visitor)</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line">visitor.<span class="built_in">ModifyAbstractB</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Visitor</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 所有的 abstract 子类都要穷举 </span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractA</span><span class="params">(AbstractA&amp; a)</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractB</span><span class="params">(AbstractB&amp; b)</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">VisitorA</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractA</span><span class="params">(AbstractA&amp; a)</span> <span class="keyword">override</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// do some change</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractB</span><span class="params">(AbstractB&amp; b)</span> <span class="keyword">override</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// do some change</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>解释器模式：<br>特定领域的问题复杂，类似的结构重复出现。<br>将问题表达为 某种语法规则 下的句子，构建解释器来解释这样的句子。<br>给定一个语言，定义它的文法的一种表示，并定义一种解释器，这个解释器使用该表示来解释语言中的句子。<br>（最常见的是实现一个 console ，复杂情况其实就是实现一个动态语言）</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">伪代码不想写了，好累。。。</span><br><span class="line">详见</span><br><span class="line">Lua源码吧。</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
@@ -119,6 +122,29 @@
     
     
     <entry>
+      <title>10 Visitor</title>
+      <link href="/2bc82489.html"/>
+      <url>/2bc82489.html</url>
+      
+        <content type="html"><![CDATA[<p>访问器模式：</p><p>由于需求改变，类层次结构常需要增加新的行为，直接修改基类会增加子类负担。<br>在 不改变类层次结构 的前提下，运行时为各个类动态添加新的操作。<br>子类是需要先预知的。<br>能够修改的操作是有限的。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Visitor</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">AcceptVisitor</span><span class="params">(Visitor* visitor)</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Visitor</span>();</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractA</span> : <span class="keyword">public</span> Abstract &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">AcceptVisitor</span><span class="params">(Visitor* visitor)</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line">visitor.<span class="built_in">ModifyAbstractA</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractB</span> : <span class="keyword">public</span> Abstract &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">AcceptVisitor</span><span class="params">(Visitor* visitor)</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line">visitor.<span class="built_in">ModifyAbstractB</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Visitor</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 所有的 abstract 子类都要穷举 </span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractA</span><span class="params">(AbstractA&amp; a)</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractB</span><span class="params">(AbstractB&amp; b)</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">VisitorA</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractA</span><span class="params">(AbstractA&amp; a)</span> <span class="keyword">override</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// do some change</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ModifyAbstractB</span><span class="params">(AbstractB&amp; b)</span> <span class="keyword">override</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// do some change</span></span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前缀和 &amp; 差分</title>
       <link href="/bf1dd6df.html"/>
       <url>/bf1dd6df.html</url>
@@ -133,29 +159,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>9 Template Method</title>
-      <link href="/91bf0e85.html"/>
-      <url>/91bf0e85.html</url>
-      
-        <content type="html"><![CDATA[<p>模板方法：</p><p>定义 算法&#x2F;流程 的骨架（公共部分），将可变的部分延迟到子类中实现。（非常常见的做法，一般基类都会这么干）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 公共部分</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TemplateMethod</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// 定义 流程、骨架</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line"><span class="comment">// 可变部分</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">HookMethod</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InternalMethod</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 3 Behavioral </category>
           
       </categories>
       
@@ -188,6 +191,29 @@
     
     
     <entry>
+      <title>9 Template Method</title>
+      <link href="/91bf0e85.html"/>
+      <url>/91bf0e85.html</url>
+      
+        <content type="html"><![CDATA[<p>模板方法：</p><p>定义 算法&#x2F;流程 的骨架（公共部分），将可变的部分延迟到子类中实现。（非常常见的做法，一般基类都会这么干）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 公共部分</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">TemplateMethod</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// 定义 流程、骨架</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line"><span class="comment">// 可变部分</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">HookMethod</span><span class="params">()</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">InternalMethod</span><span class="params">()</span></span>;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Sort</title>
       <link href="/f1165d1c.html"/>
       <url>/f1165d1c.html</url>
@@ -202,6 +228,29 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UAbilityTask</title>
+      <link href="/c30a1442.html"/>
+      <url>/c30a1442.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
           
       </categories>
       
@@ -257,29 +306,6 @@
     
     
     <entry>
-      <title>UAbilityTask</title>
-      <link href="/c30a1442.html"/>
-      <url>/c30a1442.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Recursion &amp; Divide and Conquer</title>
       <link href="/f28955a2.html"/>
       <url>/f28955a2.html</url>
@@ -294,52 +320,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>7 Proxy</title>
-      <link href="/83955033.html"/>
-      <url>/83955033.html</url>
-      
-        <content type="html"><![CDATA[<p>代理模式：</p><p>有些对象由于一些原因（创建开销大、需要控制安全操作、需要进程外的访问），直接访问会给访问者造成麻烦。<br>为其他对象提供一种代理，以控制对这个对象的访问（隔离、权限控制）。（如 UE 的渲染 proxy ）<br>设计非常自由，主要就是通过中间层，达到访问隔离的效果。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span></span>;</span><br><span class="line">Abstract ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractProxy</span> &#123;</span><br><span class="line">Abstract* m_Abstract;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">RequestDoSomething</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="comment">// if (!access)</span></span><br><span class="line"><span class="comment">// &#123;</span></span><br><span class="line"><span class="comment">//  return;</span></span><br><span class="line"><span class="comment">// &#125;</span></span><br><span class="line">...</span><br><span class="line">m_Abstract-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">Abstract ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractProxy* m_AbstractProxy;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Do</span><span class="params">()</span></span>&#123;</span><br><span class="line">m_AbstractProxy-&gt;<span class="built_in">RequestDoSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 2 Structural </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>7 State</title>
-      <link href="/53744b76.html"/>
-      <url>/53744b76.html</url>
-      
-        <content type="html"><![CDATA[<p>状态模式：<br>某些对象的状态变化，行为也会随之变化。运行时根据对象的状态来更改行为。<br>将所有与特定状态相关的行为，都放入一个State子对象，在对象状态切换时，切换为对应的子对象，同时维持对外接口，以达到状态与行为的解耦。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractState</span> &#123;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">AbstractState* m_Next;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">AbstractState</span>() &#123;&#125;</span><br><span class="line"><span class="function">AbstractState* <span class="title">GetNextState</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> m_Next; &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">StateA</span> : <span class="keyword">public</span> AbstractState &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="type">static</span> AbstractState* m_Instance;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> AbstractState* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line">m_Next-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line"><span class="comment">//状态切换，这部分是变化的。由各个子类自己实现。</span></span><br><span class="line">m_Next = StateB::<span class="built_in">GetInstance</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">StateB</span> : <span class="keyword">public</span> AbstractState &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="type">static</span> AbstractState* m_Instance;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> AbstractState* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">m_Next-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Processor</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractState* m_State;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">Processor</span>(AbstractState* state) : <span class="built_in">m_State</span>(state) &#123;&#125;</span><br><span class="line"><span class="comment">// 状态增加时，这部分是稳定的。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>&#123;</span><br><span class="line">m_State-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">m_State = m_State-&gt;<span class="built_in">GetNextState</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 3 Behavioral </category>
           
       </categories>
       
@@ -395,6 +375,52 @@
     
     
     <entry>
+      <title>7 Proxy</title>
+      <link href="/83955033.html"/>
+      <url>/83955033.html</url>
+      
+        <content type="html"><![CDATA[<p>代理模式：</p><p>有些对象由于一些原因（创建开销大、需要控制安全操作、需要进程外的访问），直接访问会给访问者造成麻烦。<br>为其他对象提供一种代理，以控制对这个对象的访问（隔离、权限控制）。（如 UE 的渲染 proxy ）<br>设计非常自由，主要就是通过中间层，达到访问隔离的效果。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span></span>;</span><br><span class="line">Abstract ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractProxy</span> &#123;</span><br><span class="line">Abstract* m_Abstract;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">RequestDoSomething</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="comment">// if (!access)</span></span><br><span class="line"><span class="comment">// &#123;</span></span><br><span class="line"><span class="comment">//  return;</span></span><br><span class="line"><span class="comment">// &#125;</span></span><br><span class="line">...</span><br><span class="line">m_Abstract-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">Abstract ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractProxy* m_AbstractProxy;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Do</span><span class="params">()</span></span>&#123;</span><br><span class="line">m_AbstractProxy-&gt;<span class="built_in">RequestDoSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 2 Structural </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>7 State</title>
+      <link href="/53744b76.html"/>
+      <url>/53744b76.html</url>
+      
+        <content type="html"><![CDATA[<p>状态模式：<br>某些对象的状态变化，行为也会随之变化。运行时根据对象的状态来更改行为。<br>将所有与特定状态相关的行为，都放入一个State子对象，在对象状态切换时，切换为对应的子对象，同时维持对外接口，以达到状态与行为的解耦。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractState</span> &#123;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">AbstractState* m_Next;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">AbstractState</span>() &#123;&#125;</span><br><span class="line"><span class="function">AbstractState* <span class="title">GetNextState</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> m_Next; &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">StateA</span> : <span class="keyword">public</span> AbstractState &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="type">static</span> AbstractState* m_Instance;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> AbstractState* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line">m_Next-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line"><span class="comment">//状态切换，这部分是变化的。由各个子类自己实现。</span></span><br><span class="line">m_Next = StateB::<span class="built_in">GetInstance</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">StateB</span> : <span class="keyword">public</span> AbstractState &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="type">static</span> AbstractState* m_Instance;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> AbstractState* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">m_Next-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Processor</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractState* m_State;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">Processor</span>(AbstractState* state) : <span class="built_in">m_State</span>(state) &#123;&#125;</span><br><span class="line"><span class="comment">// 状态增加时，这部分是稳定的。</span></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>&#123;</span><br><span class="line">m_State-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">m_State = m_State-&gt;<span class="built_in">GetNextState</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Greedy</title>
       <link href="/4a214119.html"/>
       <url>/4a214119.html</url>
@@ -409,29 +435,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>6 Summary</title>
-      <link href="/dead4f21.html"/>
-      <url>/dead4f21.html</url>
-      
-        <content type="html"><![CDATA[<p>创建型模式提供了创建对象的机制，能够提升已有代码的灵活性和可复用性。</p><p>通过对象创建模式，绕开new，以避免紧耦合，支持对象创建的稳定。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
           
       </categories>
       
@@ -487,34 +490,11 @@
     
     
     <entry>
-      <title>Enumerate</title>
-      <link href="/122d1b7f.html"/>
-      <url>/122d1b7f.html</url>
+      <title>6 Summary</title>
+      <link href="/dead4f21.html"/>
+      <url>/dead4f21.html</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Base Knowledge </category>
-          
-          <category> Data Structures &amp; Algorithm </category>
-          
-          <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>5 Singleton</title>
-      <link href="/7c49fddd.html"/>
-      <url>/7c49fddd.html</url>
-      
-        <content type="html"><![CDATA[<p>单例模式：</p><p>保证系统中只存在一个实例。 解决对象的性能问题。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> Singleton* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="type">static</span> Singleton* m_Instance;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">Singleton</span>( <span class="type">const</span> Singleton&amp; singleton );</span><br><span class="line">&#125;；</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 无脑锁</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">Lock lock;</span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全 双检查锁  内存指令重排下有问题（执行顺序与假象的不一致，可能没有构造就返回了）</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">Lock lock;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 双检查锁  volatile (强制从内存中读取一次、禁止指令重排)</span></span><br><span class="line">std::atomic&lt;Sigleton*&gt; Singleton::m_Instance;</span><br><span class="line">std::mutex Singleton:m_Mutex;</span><br><span class="line"></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">singleton *tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="comment">// 用于确保执行顺序</span></span><br><span class="line">std::<span class="built_in">atomic_thread_fence</span>(std::memory_order_acquire);</span><br><span class="line"><span class="keyword">if</span> ( tmp != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line"><span class="function">std::lock_guard&lt;std::mutex&gt; <span class="title">guard</span><span class="params">(m_Mutex)</span></span>;</span><br><span class="line">tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">tmp = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">atomic_thread_fence</span>(memory_order_release);</span><br><span class="line">m_Instance.<span class="built_in">store</span>(tmp, memory_order_relaxed);</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>创建型模式提供了创建对象的机制，能够提升已有代码的灵活性和可复用性。</p><p>通过对象创建模式，绕开new，以避免紧耦合，支持对象创建的稳定。</p>]]></content>
       
       
       <categories>
@@ -533,43 +513,20 @@
     
     
     <entry>
-      <title>5 Facade</title>
-      <link href="/462eceee.html"/>
-      <url>/462eceee.html</url>
+      <title>Enumerate</title>
+      <link href="/122d1b7f.html"/>
+      <url>/122d1b7f.html</url>
       
-        <content type="html"><![CDATA[<p>门面模式：</p><p>简化系统 内部 和 外部 的耦合。<br>为子系统中的一组接口提供一个一致（稳定）的界面，定义了一个高层接口，使得更容易复用。达到一种 解耦 的效果。<br>解决的是 架构 层面的设计，而不简单是一个类的设计。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 2 Structural </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>5 Memento</title>
-      <link href="/bf71ebe9.html"/>
-      <url>/bf71ebe9.html</url>
-      
-        <content type="html"><![CDATA[<p>备忘录模式：<br>对象状态在转换过程中，可能存在 回溯 到之前某个状态的需求。<br>实现对象状态的 保存与恢复，同时不破坏对象的封装性。<br>在 不破坏封装性 的前提下，捕获 一个对象的 内部状态，并在 对象之外 进行 保存 ，且支持恢复。<br>(已经不实用了，目前主流框架&#x2F;语言，都有成熟的反射、序列化方案，可以更高效的实现备忘录模式)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Memento</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="comment">// 不一定通过字符串进行存储</span></span><br><span class="line">std::string m_Content;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">Memento</span>(<span class="type">const</span> std::string&amp;&amp; content) : <span class="built_in">m_Content</span>(content) &#123;&#125;</span><br><span class="line"><span class="function">std::string <span class="title">GetMementoContent</span><span class="params">()</span></span>;</span><br><span class="line">&#125;；</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="comment">// some property</span></span><br><span class="line">...</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function">Memento <span class="title">CreateMemento</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">// 序列化</span></span><br><span class="line">...</span><br><span class="line"><span class="keyword">return</span> <span class="built_in">Memento</span>(state);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ApplyMemento</span><span class="params">(<span class="type">const</span> Memento&amp; memento)</span> </span>&#123;</span><br><span class="line">state = memento-&gt;<span class="built_in">GetMementoContent</span>();</span><br><span class="line"><span class="comment">// 反序列化</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Do</span><span class="params">()</span> </span>&#123;</span><br><span class="line">Abstract abstract;</span><br><span class="line">Memento memento = abstract.<span class="built_in">CreateMemento</span>();</span><br><span class="line"><span class="comment">// do something</span></span><br><span class="line">...</span><br><span class="line">abstract.<span class="built_in">ApplyMemento</span>(memento);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> Programing </category>
+          <category> Base Knowledge </category>
           
-          <category> Design Pattern </category>
+          <category> Data Structures &amp; Algorithm </category>
           
-          <category> 3 Behavioral </category>
+          <category> Basic Algorithm </category>
           
       </categories>
       
@@ -648,6 +605,75 @@
     
     
     <entry>
+      <title>5 Facade</title>
+      <link href="/462eceee.html"/>
+      <url>/462eceee.html</url>
+      
+        <content type="html"><![CDATA[<p>门面模式：</p><p>简化系统 内部 和 外部 的耦合。<br>为子系统中的一组接口提供一个一致（稳定）的界面，定义了一个高层接口，使得更容易复用。达到一种 解耦 的效果。<br>解决的是 架构 层面的设计，而不简单是一个类的设计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 2 Structural </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5 Memento</title>
+      <link href="/bf71ebe9.html"/>
+      <url>/bf71ebe9.html</url>
+      
+        <content type="html"><![CDATA[<p>备忘录模式：<br>对象状态在转换过程中，可能存在 回溯 到之前某个状态的需求。<br>实现对象状态的 保存与恢复，同时不破坏对象的封装性。<br>在 不破坏封装性 的前提下，捕获 一个对象的 内部状态，并在 对象之外 进行 保存 ，且支持恢复。<br>(已经不实用了，目前主流框架&#x2F;语言，都有成熟的反射、序列化方案，可以更高效的实现备忘录模式)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Memento</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="comment">// 不一定通过字符串进行存储</span></span><br><span class="line">std::string m_Content;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">Memento</span>(<span class="type">const</span> std::string&amp;&amp; content) : <span class="built_in">m_Content</span>(content) &#123;&#125;</span><br><span class="line"><span class="function">std::string <span class="title">GetMementoContent</span><span class="params">()</span></span>;</span><br><span class="line">&#125;；</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="comment">// some property</span></span><br><span class="line">...</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function">Memento <span class="title">CreateMemento</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">// 序列化</span></span><br><span class="line">...</span><br><span class="line"><span class="keyword">return</span> <span class="built_in">Memento</span>(state);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ApplyMemento</span><span class="params">(<span class="type">const</span> Memento&amp; memento)</span> </span>&#123;</span><br><span class="line">state = memento-&gt;<span class="built_in">GetMementoContent</span>();</span><br><span class="line"><span class="comment">// 反序列化</span></span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Do</span><span class="params">()</span> </span>&#123;</span><br><span class="line">Abstract abstract;</span><br><span class="line">Memento memento = abstract.<span class="built_in">CreateMemento</span>();</span><br><span class="line"><span class="comment">// do something</span></span><br><span class="line">...</span><br><span class="line">abstract.<span class="built_in">ApplyMemento</span>(memento);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5 Singleton</title>
+      <link href="/7c49fddd.html"/>
+      <url>/7c49fddd.html</url>
+      
+        <content type="html"><![CDATA[<p>单例模式：</p><p>保证系统中只存在一个实例。 解决对象的性能问题。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> Singleton* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="type">static</span> Singleton* m_Instance;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">Singleton</span>( <span class="type">const</span> Singleton&amp; singleton );</span><br><span class="line">&#125;；</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 无脑锁</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">Lock lock;</span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全 双检查锁  内存指令重排下有问题（执行顺序与假象的不一致，可能没有构造就返回了）</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">Lock lock;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 双检查锁  volatile (强制从内存中读取一次、禁止指令重排)</span></span><br><span class="line">std::atomic&lt;Sigleton*&gt; Singleton::m_Instance;</span><br><span class="line">std::mutex Singleton:m_Mutex;</span><br><span class="line"></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">singleton *tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="comment">// 用于确保执行顺序</span></span><br><span class="line">std::<span class="built_in">atomic_thread_fence</span>(std::memory_order_acquire);</span><br><span class="line"><span class="keyword">if</span> ( tmp != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line"><span class="function">std::lock_guard&lt;std::mutex&gt; <span class="title">guard</span><span class="params">(m_Mutex)</span></span>;</span><br><span class="line">tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">tmp = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">atomic_thread_fence</span>(memory_order_release);</span><br><span class="line">m_Instance.<span class="built_in">store</span>(tmp, memory_order_relaxed);</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>实时高质量着色</title>
       <link href="/e42b27d1.html"/>
       <url>/e42b27d1.html</url>
@@ -685,75 +711,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>4 Prototype</title>
-      <link href="/7bfb464b.html"/>
-      <url>/7bfb464b.html</url>
-      
-        <content type="html"><![CDATA[<p>原型模式：</p><p>使用原型实例指定要创建对象的种类，并通过拷贝这些原型创建新的对象。<br>对象的状态变化剧烈&#x2F;创建复杂，需要记忆对象的状态。(对象池思想)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">Clone</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">// 需要用 深拷贝</span></span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Abstract</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>4 Decorator</title>
-      <link href="/ebfe19bc.html"/>
-      <url>/ebfe19bc.html</url>
-      
-        <content type="html"><![CDATA[<p>装饰模式：</p><p>支持主体类在多个方向上拓展能力，以解决子类爆炸的问题，核心是划分不同继承分支的职责，相互依赖的职责又通过组合联系。 通过 组合（动态） 给对象添加能力，而不是 继承（静态）。（当子类能力出现分支，但又相互依赖的情况下，在 渲染场景 下尤为常见）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 主体类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Component</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 子类分支1</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BranchA</span> : <span class="keyword">public</span> Component &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 负责处理 Part1</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 子类分支2</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BranchB</span> : <span class="keyword">public</span> Component &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 负责处理 Part2</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 装饰类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BranchDecorator</span> : <span class="keyword">public</span> Component &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 依赖 基类 其他分支的能力 如 Part1、Part2</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line"><span class="comment">// 是相似的职责但分了不同的方向/角度</span></span><br><span class="line">component-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">Component* component;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 2 Structural </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>4 Mediator</title>
-      <link href="/e03e130b.html"/>
-      <url>/e03e130b.html</url>
-      
-        <content type="html"><![CDATA[<p>中介者模式：</p><p>对象之间存在互相关联交互的情况，维持着复杂的引用关系。<br>使用 中介对象 来封装（变化）一系列对象的交互，管理对象之间的紧耦合引用。使得各对象不需要显式的引用（编译时 -&gt; 运行时）。<br>（引入中介者，将网状的引用中心化）</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 3 Behavioral </category>
           
       </categories>
       
@@ -823,6 +780,75 @@
           <category> GamePlay </category>
           
           <category> Replication </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>4 Decorator</title>
+      <link href="/ebfe19bc.html"/>
+      <url>/ebfe19bc.html</url>
+      
+        <content type="html"><![CDATA[<p>装饰模式：</p><p>支持主体类在多个方向上拓展能力，以解决子类爆炸的问题，核心是划分不同继承分支的职责，相互依赖的职责又通过组合联系。 通过 组合（动态） 给对象添加能力，而不是 继承（静态）。（当子类能力出现分支，但又相互依赖的情况下，在 渲染场景 下尤为常见）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 主体类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">Component</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 子类分支1</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BranchA</span> : <span class="keyword">public</span> Component &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 负责处理 Part1</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 子类分支2</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BranchB</span> : <span class="keyword">public</span> Component &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 负责处理 Part2</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;&#125;;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 装饰类</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">BranchDecorator</span> : <span class="keyword">public</span> Component &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="comment">// 依赖 基类 其他分支的能力 如 Part1、Part2</span></span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line"><span class="comment">// 是相似的职责但分了不同的方向/角度</span></span><br><span class="line">component-&gt;<span class="built_in">DoSomething</span>();</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">Component* component;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 2 Structural </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>4 Mediator</title>
+      <link href="/e03e130b.html"/>
+      <url>/e03e130b.html</url>
+      
+        <content type="html"><![CDATA[<p>中介者模式：</p><p>对象之间存在互相关联交互的情况，维持着复杂的引用关系。<br>使用 中介对象 来封装（变化）一系列对象的交互，管理对象之间的紧耦合引用。使得各对象不需要显式的引用（编译时 -&gt; 运行时）。<br>（引入中介者，将网状的引用中心化）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>4 Prototype</title>
+      <link href="/7bfb464b.html"/>
+      <url>/7bfb464b.html</url>
+      
+        <content type="html"><![CDATA[<p>原型模式：</p><p>使用原型实例指定要创建对象的种类，并通过拷贝这些原型创建新的对象。<br>对象的状态变化剧烈&#x2F;创建复杂，需要记忆对象的状态。(对象池思想)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">Clone</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">// 需要用 深拷贝</span></span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Abstract</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
           
       </categories>
       
@@ -924,29 +950,6 @@
     
     
     <entry>
-      <title>3 Builder</title>
-      <link href="/8c35c344.html"/>
-      <url>/8c35c344.html</url>
-      
-        <content type="html"><![CDATA[<p>构建器模式：</p><p>一个复杂对象的一部分变化剧烈，一部分相对稳定。<br>将一个复杂对象的构建与其 表示 相分离，使得同样的构建过程（稳定）可以创建不同的表示（变化）。 （<strong>可调用子类虚函数的初始化函数</strong>）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="built_in">Abstract</span>()&#123;&#125;;</span><br><span class="line"><span class="comment">// 其实就是 模板方法，然后新建一个 初始化函数，以完成构造流程。</span></span><br><span class="line"><span class="comment">// 绕开构造函数无法调用虚函数的限制。</span></span><br><span class="line"><span class="comment">// 初始化函数足够复杂，可以拆出去作为新类，则，子类中不会继承这一块内容。</span></span><br><span class="line"><span class="built_in">Construct</span>()&#123;</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructA</span>();</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructB</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructA</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructB</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>3 Composite</title>
       <link href="/c9a00474.html"/>
       <url>/c9a00474.html</url>
@@ -984,6 +987,29 @@
           <category> Design Pattern </category>
           
           <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>3 Builder</title>
+      <link href="/8c35c344.html"/>
+      <url>/8c35c344.html</url>
+      
+        <content type="html"><![CDATA[<p>构建器模式：</p><p>一个复杂对象的一部分变化剧烈，一部分相对稳定。<br>将一个复杂对象的构建与其 表示 相分离，使得同样的构建过程（稳定）可以创建不同的表示（变化）。 （<strong>可调用子类虚函数的初始化函数</strong>）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="built_in">Abstract</span>()&#123;&#125;;</span><br><span class="line"><span class="comment">// 其实就是 模板方法，然后新建一个 初始化函数，以完成构造流程。</span></span><br><span class="line"><span class="comment">// 绕开构造函数无法调用虚函数的限制。</span></span><br><span class="line"><span class="comment">// 初始化函数足够复杂，可以拆出去作为新类，则，子类中不会继承这一块内容。</span></span><br><span class="line"><span class="built_in">Construct</span>()&#123;</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructA</span>();</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructB</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructA</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructB</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
           
       </categories>
       
@@ -1171,20 +1197,43 @@
     
     
     <entry>
-      <title>1 Factory Method 工厂方法</title>
-      <link href="/b80dfb29.html"/>
-      <url>/b80dfb29.html</url>
+      <title>NavMesh</title>
+      <link href="/5c7b52be.html"/>
+      <url>/5c7b52be.html</url>
       
-        <content type="html"><![CDATA[<p>工厂模式：</p><p><strong>定义一个用于创建对象的接口，让子类决定实例化哪一个类</strong>，使得一个类的实例化延迟。解耦 new 对类型的依赖。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractFactory</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">CreateAbstract</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">AbstractFactory</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractFactory* m_AbstractFactory;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">User</span>(AbstractFactory* abstractFactory) : <span class="built_in">m_AbstractFactory</span>(abstractFactory) &#123;</span><br><span class="line">Abstract* abstract = m_AbstractFactory-&gt;<span class="built_in">CreateAbstract</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>NavMesh</code></p>]]></content>
       
       
       <categories>
           
-          <category> Programing </category>
+          <category> Unreal Engine </category>
           
-          <category> Design Pattern </category>
+          <category> AI </category>
           
-          <category> 1 Creational </category>
+          <category> NavMesh </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Replication</title>
+      <link href="/d454ba70.html"/>
+      <url>/d454ba70.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Replication</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Replication </category>
           
       </categories>
       
@@ -1240,43 +1289,20 @@
     
     
     <entry>
-      <title>NavMesh</title>
-      <link href="/5c7b52be.html"/>
-      <url>/5c7b52be.html</url>
+      <title>1 Factory Method 工厂方法</title>
+      <link href="/b80dfb29.html"/>
+      <url>/b80dfb29.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：<code>NavMesh</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> AI </category>
-          
-          <category> NavMesh </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Replication</title>
-      <link href="/d454ba70.html"/>
-      <url>/d454ba70.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Replication</code></p>]]></content>
+        <content type="html"><![CDATA[<p>工厂模式：</p><p><strong>定义一个用于创建对象的接口，让子类决定实例化哪一个类</strong>，使得一个类的实例化延迟。解耦 new 对类型的依赖。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractFactory</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">CreateAbstract</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">AbstractFactory</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractFactory* m_AbstractFactory;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">User</span>(AbstractFactory* abstractFactory) : <span class="built_in">m_AbstractFactory</span>(abstractFactory) &#123;</span><br><span class="line">Abstract* abstract = m_AbstractFactory-&gt;<span class="built_in">CreateAbstract</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> Unreal Engine </category>
+          <category> Programing </category>
           
-          <category> GamePlay </category>
+          <category> Design Pattern </category>
           
-          <category> Replication </category>
+          <category> 1 Creational </category>
           
       </categories>
       
@@ -1416,52 +1442,6 @@
     
     
     <entry>
-      <title>1 Adapter</title>
-      <link href="/6d3820f7.html"/>
-      <url>/6d3820f7.html</url>
-      
-        <content type="html"><![CDATA[<p>适配器模式：</p><p>系统由于应用环境的变化，常常需要将一些 现存对象 放到 新的环境 中使用，但新环境的 接口 常常是现存对象 不满足的 。<br>将一个类的接口转换成客户希望的另一个接口，达到接口兼容。（常在一些 组件升级 中使用）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoNewSomething</span><span class="params">()</span></span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">OldAbstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoOldSomething</span><span class="params">()</span></span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractAdapter</span> : <span class="keyword">public</span> Abstract&#123;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">OldAbstract* m_OldAbstract;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">AbstractAdapter</span>(OldAbstract* oldAbstract) : <span class="built_in">m_OldAbstract</span>(oldAbstract) &#123;&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoNewSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line"><span class="comment">// 做兼容性逻辑</span></span><br><span class="line">m_OldAbstract-&gt;<span class="built_in">DoOldSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Do</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">auto</span> oldAbstract = <span class="keyword">new</span> <span class="built_in">OldAbstract</span>();</span><br><span class="line"><span class="keyword">auto</span> abstractAdapter = <span class="built_in">AbstractAdapter</span>(oldAbstract);</span><br><span class="line">abstractAdapter-&gt;<span class="built_in">DoNewSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 2 Structural </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>1 Chain of Responsibility</title>
-      <link href="/790949b5.html"/>
-      <url>/790949b5.html</url>
-      
-        <content type="html"><![CDATA[<p>责任链模式：<br>一个请求可能被多个对象处理，但是每个请求在运行时只能有一个接收者。<br>让接收者在运行时自行决定谁来处理，从而使得解耦。<br>使多个对象都有机会处理请求，将这些对象链起来，并沿着链传递请求，直到有一个对象处理它。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">ChainHandler</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">ChainHandler* m_Next;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">CanHandle</span><span class="params">( <span class="type">const</span> Request&amp; request )</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">Process</span><span class="params">( <span class="type">const</span> Request&amp; request )</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">ChainHandler</span>() : <span class="built_in">m_Next</span>(<span class="literal">nullptr</span>) &#123;&#125;</span><br><span class="line"><span class="built_in">SetNextHandler</span>(ChainHandler* next) &#123; m_Next = next; &#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Handle</span><span class="params">( <span class="type">const</span> Request&amp; request )</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// 沿着接收者链传递，直到有接收者可以处理。</span></span><br><span class="line"><span class="keyword">if</span> (<span class="built_in">CanHandle</span>(request))</span><br><span class="line"><span class="built_in">Process</span>(request);</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">m_Next-&gt;<span class="built_in">Handle</span>(request);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 3 Behavioral </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>EnvironmentQuery</title>
       <link href="/152a818d.html"/>
       <url>/152a818d.html</url>
@@ -1508,18 +1488,43 @@
     
     
     <entry>
-      <title>5 Lua 面向对象</title>
-      <link href="/937a4025.html"/>
-      <url>/937a4025.html</url>
+      <title>1 Adapter</title>
+      <link href="/6d3820f7.html"/>
+      <url>/6d3820f7.html</url>
       
-        <content type="html"><![CDATA[<h1><span id="源码">源码</span></h1><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> recursionsetmetatable</span><br><span class="line">recursionsetmetatable = <span class="function"><span class="keyword">function</span><span class="params">(t, index)</span></span></span><br><span class="line">    <span class="keyword">local</span> mt = <span class="built_in">getmetatable</span>(t)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> mt <span class="keyword">then</span> mt = &#123;&#125; <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> mt.<span class="built_in">__index</span> <span class="keyword">then</span></span><br><span class="line">        mt.<span class="built_in">__index</span> = index</span><br><span class="line">        mt.<span class="built_in">__gc</span> = <span class="function"><span class="keyword">function</span><span class="params">(self)</span></span> <span class="built_in">self</span>:Dtor() <span class="keyword">end</span></span><br><span class="line">        <span class="built_in">setmetatable</span>(t, mt)</span><br><span class="line">    <span class="keyword">elseif</span> mt.<span class="built_in">__index</span> ~= index <span class="keyword">then</span></span><br><span class="line">        recursionsetmetatable(mt, index)</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> <span class="function"><span class="keyword">function</span> <span class="title">Class</span><span class="params">(clsName, ...)</span></span></span><br><span class="line">    <span class="keyword">local</span> cls = &#123; __cname = clsName &#125;</span><br><span class="line">    <span class="keyword">local</span> supers = &#123; ... &#125;</span><br><span class="line">    <span class="comment">-- super 可以是table 可以是function</span></span><br><span class="line">    <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(supers) <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">local</span> superType = <span class="built_in">type</span>(super)</span><br><span class="line">        <span class="keyword">if</span> superType == <span class="string">&#x27;function&#x27;</span> <span class="keyword">then</span></span><br><span class="line">            cls.__create = super</span><br><span class="line">        <span class="keyword">elseif</span> superType == <span class="string">&#x27;table&#x27;</span> <span class="keyword">then</span></span><br><span class="line">            cls.__supers = cls.__supers <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">            cls.__supers[#cls.__supers + <span class="number">1</span>] = super</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    cls.<span class="built_in">__index</span> = cls</span><br><span class="line">    <span class="keyword">local</span> mt = &#123;</span><br><span class="line">        <span class="built_in">__call</span> = <span class="function"><span class="keyword">function</span><span class="params">(cls, ...)</span></span> <span class="keyword">return</span> cls.New(...) <span class="keyword">end</span>,</span><br><span class="line">        <span class="comment">-- __gc = function(cls) end</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> cls.__supers <span class="keyword">then</span></span><br><span class="line">        mt.<span class="built_in">__index</span> = <span class="function"><span class="keyword">function</span><span class="params">(_, key)</span></span></span><br><span class="line">            <span class="keyword">for</span> i, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(cls.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">if</span> super[key] <span class="keyword">then</span> <span class="keyword">return</span> super[key] <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="built_in">setmetatable</span>(cls, mt)</span><br><span class="line">    <span class="comment">-- 必然是成员函数</span></span><br><span class="line">    cls.CallSuper = <span class="function"><span class="keyword">function</span><span class="params">(self, funcName, ...)</span></span></span><br><span class="line">        <span class="keyword">if</span> cls.__supers <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(cls.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">local</span> superFunc = super[funcName]</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">type</span>(superFunc) == <span class="string">&#x27;function&#x27;</span> <span class="keyword">then</span></span><br><span class="line">                    superFunc(<span class="built_in">self</span>, ...)</span><br><span class="line">                <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> cls.Ctor <span class="keyword">then</span></span><br><span class="line">        cls.Ctor = <span class="function"><span class="keyword">function</span><span class="params">(self, ...)</span></span> <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> cls.Dtor <span class="keyword">then</span></span><br><span class="line">        cls.Dtor = <span class="function"><span class="keyword">function</span><span class="params">(self, ...)</span></span> <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    cls.New = <span class="function"><span class="keyword">function</span><span class="params">(...)</span></span></span><br><span class="line">        <span class="keyword">local</span> <span class="built_in">self</span> = cls.__create <span class="keyword">and</span> cls.__create(...) <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">        recursionsetmetatable(<span class="built_in">self</span>, cls)</span><br><span class="line">        <span class="built_in">self</span>:Ctor(...)</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">self</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> cls</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> <span class="function"><span class="keyword">function</span> <span class="title">IsA</span><span class="params">(self, cls)</span></span></span><br><span class="line">    <span class="keyword">local</span> recursionIsA</span><br><span class="line">    recursionIsA = <span class="function"><span class="keyword">function</span><span class="params">(clsXX, clsB)</span></span></span><br><span class="line">        <span class="keyword">if</span> clsXX.__supers <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(clsXX.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">if</span> recursionIsA(super, clsB) <span class="keyword">or</span> super.__cname == clsB.__cname <span class="keyword">then</span></span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">                <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> recursionIsA(<span class="built_in">self</span>, cls) <span class="keyword">or</span> <span class="built_in">self</span>.__cname == cls.__cname</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">_G</span>.Class = Class</span><br><span class="line"><span class="built_in">_G</span>.IsA = IsA</span><br></pre></td></tr></table></figure><h1><span id="测试代码">测试代码</span></h1><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Test Code</span></span><br><span class="line"><span class="keyword">local</span> clsXX = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsXX&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objXX&#x27;</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">self</span>.__cname, clsXX.__cname, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Print</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;clsXX Print&#x27;</span>, <span class="built_in">self</span>.name, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Dtor</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Dtor&#x27;</span>, <span class="built_in">self</span>.name, <span class="built_in">self</span>.__cname, clsXX.__cname)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsYY = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsYY&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objYY&#x27;</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">self</span>.__cname, clsYY.__cname, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Print</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;clsYY Print&#x27;</span>, <span class="built_in">self</span>.name, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Dtor</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Dtor&#x27;</span>, <span class="built_in">self</span>.name, <span class="built_in">self</span>.__cname, clsYY.__cname)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsB = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsB&#x27;</span>, clsXX)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objB&#x27;</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Print</span><span class="params">(...)</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Print&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Dtor</span><span class="params">()</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Dtor&#x27;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsC = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsC&#x27;</span>, clsB, clsYY)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objC&#x27;</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Print</span><span class="params">(...)</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Print&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Dtor</span><span class="params">()</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Dtor&#x27;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> objXX = clsXX.New()</span><br><span class="line"><span class="keyword">local</span> objB = clsB(<span class="number">1</span>)</span><br><span class="line"><span class="keyword">local</span> objC = clsC(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line">objXX:Print()</span><br><span class="line">objB:Print()</span><br><span class="line">objC:Print()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objB, clsB)&#x27;</span>, <span class="built_in">_G</span>.IsA(objB, clsB))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objB, clsC)&#x27;</span>, <span class="built_in">_G</span>.IsA(objB, clsC))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objC, clsXX)&#x27;</span>, <span class="built_in">_G</span>.IsA(objC, clsXX))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objC, clsYY)&#x27;</span>, <span class="built_in">_G</span>.IsA(objC, clsYY))</span><br><span class="line"><span class="keyword">local</span> clsFunc = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsFunc&#x27;</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">    <span class="keyword">return</span> &#123;&#125;</span><br><span class="line"><span class="keyword">end</span>, clsB)</span><br><span class="line"><span class="keyword">local</span> objFunc = clsFunc()</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<p>适配器模式：</p><p>系统由于应用环境的变化，常常需要将一些 现存对象 放到 新的环境 中使用，但新环境的 接口 常常是现存对象 不满足的 。<br>将一个类的接口转换成客户希望的另一个接口，达到接口兼容。（常在一些 组件升级 中使用）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoNewSomething</span><span class="params">()</span></span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">OldAbstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoOldSomething</span><span class="params">()</span></span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractAdapter</span> : <span class="keyword">public</span> Abstract&#123;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line">OldAbstract* m_OldAbstract;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">AbstractAdapter</span>(OldAbstract* oldAbstract) : <span class="built_in">m_OldAbstract</span>(oldAbstract) &#123;&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoNewSomething</span><span class="params">()</span> <span class="keyword">override</span> </span>&#123;</span><br><span class="line"><span class="comment">// 做兼容性逻辑</span></span><br><span class="line">m_OldAbstract-&gt;<span class="built_in">DoOldSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Do</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">auto</span> oldAbstract = <span class="keyword">new</span> <span class="built_in">OldAbstract</span>();</span><br><span class="line"><span class="keyword">auto</span> abstractAdapter = <span class="built_in">AbstractAdapter</span>(oldAbstract);</span><br><span class="line">abstractAdapter-&gt;<span class="built_in">DoNewSomething</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
           <category> Programing </category>
           
-          <category> Lua </category>
+          <category> Design Pattern </category>
+          
+          <category> 2 Structural </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>1 Chain of Responsibility</title>
+      <link href="/790949b5.html"/>
+      <url>/790949b5.html</url>
+      
+        <content type="html"><![CDATA[<p>责任链模式：<br>一个请求可能被多个对象处理，但是每个请求在运行时只能有一个接收者。<br>让接收者在运行时自行决定谁来处理，从而使得解耦。<br>使多个对象都有机会处理请求，将这些对象链起来，并沿着链传递请求，直到有一个对象处理它。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">ChainHandler</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">ChainHandler* m_Next;</span><br><span class="line"><span class="keyword">protected</span>:</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">bool</span> <span class="title">CanHandle</span><span class="params">( <span class="type">const</span> Request&amp; request )</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">Process</span><span class="params">( <span class="type">const</span> Request&amp; request )</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">ChainHandler</span>() : <span class="built_in">m_Next</span>(<span class="literal">nullptr</span>) &#123;&#125;</span><br><span class="line"><span class="built_in">SetNextHandler</span>(ChainHandler* next) &#123; m_Next = next; &#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Handle</span><span class="params">( <span class="type">const</span> Request&amp; request )</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="comment">// 沿着接收者链传递，直到有接收者可以处理。</span></span><br><span class="line"><span class="keyword">if</span> (<span class="built_in">CanHandle</span>(request))</span><br><span class="line"><span class="built_in">Process</span>(request);</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">m_Next-&gt;<span class="built_in">Handle</span>(request);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 3 Behavioral </category>
           
       </categories>
       
@@ -1541,6 +1546,27 @@
           <category> Unreal Engine </category>
           
           <category> Platform </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5 Lua 面向对象</title>
+      <link href="/937a4025.html"/>
+      <url>/937a4025.html</url>
+      
+        <content type="html"><![CDATA[<h1><span id="源码">源码</span></h1><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">local</span> recursionsetmetatable</span><br><span class="line">recursionsetmetatable = <span class="function"><span class="keyword">function</span><span class="params">(t, index)</span></span></span><br><span class="line">    <span class="keyword">local</span> mt = <span class="built_in">getmetatable</span>(t)</span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> mt <span class="keyword">then</span> mt = &#123;&#125; <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> mt.<span class="built_in">__index</span> <span class="keyword">then</span></span><br><span class="line">        mt.<span class="built_in">__index</span> = index</span><br><span class="line">        mt.<span class="built_in">__gc</span> = <span class="function"><span class="keyword">function</span><span class="params">(self)</span></span> <span class="built_in">self</span>:Dtor() <span class="keyword">end</span></span><br><span class="line">        <span class="built_in">setmetatable</span>(t, mt)</span><br><span class="line">    <span class="keyword">elseif</span> mt.<span class="built_in">__index</span> ~= index <span class="keyword">then</span></span><br><span class="line">        recursionsetmetatable(mt, index)</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> <span class="function"><span class="keyword">function</span> <span class="title">Class</span><span class="params">(clsName, ...)</span></span></span><br><span class="line">    <span class="keyword">local</span> cls = &#123; __cname = clsName &#125;</span><br><span class="line">    <span class="keyword">local</span> supers = &#123; ... &#125;</span><br><span class="line">    <span class="comment">-- super 可以是table 可以是function</span></span><br><span class="line">    <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(supers) <span class="keyword">do</span></span><br><span class="line">        <span class="keyword">local</span> superType = <span class="built_in">type</span>(super)</span><br><span class="line">        <span class="keyword">if</span> superType == <span class="string">&#x27;function&#x27;</span> <span class="keyword">then</span></span><br><span class="line">            cls.__create = super</span><br><span class="line">        <span class="keyword">elseif</span> superType == <span class="string">&#x27;table&#x27;</span> <span class="keyword">then</span></span><br><span class="line">            cls.__supers = cls.__supers <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">            cls.__supers[#cls.__supers + <span class="number">1</span>] = super</span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    cls.<span class="built_in">__index</span> = cls</span><br><span class="line">    <span class="keyword">local</span> mt = &#123;</span><br><span class="line">        <span class="built_in">__call</span> = <span class="function"><span class="keyword">function</span><span class="params">(cls, ...)</span></span> <span class="keyword">return</span> cls.New(...) <span class="keyword">end</span>,</span><br><span class="line">        <span class="comment">-- __gc = function(cls) end</span></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">if</span> cls.__supers <span class="keyword">then</span></span><br><span class="line">        mt.<span class="built_in">__index</span> = <span class="function"><span class="keyword">function</span><span class="params">(_, key)</span></span></span><br><span class="line">            <span class="keyword">for</span> i, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(cls.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">if</span> super[key] <span class="keyword">then</span> <span class="keyword">return</span> super[key] <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="built_in">setmetatable</span>(cls, mt)</span><br><span class="line">    <span class="comment">-- 必然是成员函数</span></span><br><span class="line">    cls.CallSuper = <span class="function"><span class="keyword">function</span><span class="params">(self, funcName, ...)</span></span></span><br><span class="line">        <span class="keyword">if</span> cls.__supers <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(cls.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">local</span> superFunc = super[funcName]</span><br><span class="line">                <span class="keyword">if</span> <span class="built_in">type</span>(superFunc) == <span class="string">&#x27;function&#x27;</span> <span class="keyword">then</span></span><br><span class="line">                    superFunc(<span class="built_in">self</span>, ...)</span><br><span class="line">                <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> cls.Ctor <span class="keyword">then</span></span><br><span class="line">        cls.Ctor = <span class="function"><span class="keyword">function</span><span class="params">(self, ...)</span></span> <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">if</span> <span class="keyword">not</span> cls.Dtor <span class="keyword">then</span></span><br><span class="line">        cls.Dtor = <span class="function"><span class="keyword">function</span><span class="params">(self, ...)</span></span> <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    cls.New = <span class="function"><span class="keyword">function</span><span class="params">(...)</span></span></span><br><span class="line">        <span class="keyword">local</span> <span class="built_in">self</span> = cls.__create <span class="keyword">and</span> cls.__create(...) <span class="keyword">or</span> &#123;&#125;</span><br><span class="line">        recursionsetmetatable(<span class="built_in">self</span>, cls)</span><br><span class="line">        <span class="built_in">self</span>:Ctor(...)</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">self</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> cls</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> <span class="function"><span class="keyword">function</span> <span class="title">IsA</span><span class="params">(self, cls)</span></span></span><br><span class="line">    <span class="keyword">local</span> recursionIsA</span><br><span class="line">    recursionIsA = <span class="function"><span class="keyword">function</span><span class="params">(clsXX, clsB)</span></span></span><br><span class="line">        <span class="keyword">if</span> clsXX.__supers <span class="keyword">then</span></span><br><span class="line">            <span class="keyword">for</span> _, super <span class="keyword">in</span> <span class="built_in">ipairs</span>(clsXX.__supers) <span class="keyword">do</span></span><br><span class="line">                <span class="keyword">if</span> recursionIsA(super, clsB) <span class="keyword">or</span> super.__cname == clsB.__cname <span class="keyword">then</span></span><br><span class="line">                    <span class="keyword">return</span> <span class="literal">true</span></span><br><span class="line">                <span class="keyword">end</span></span><br><span class="line">            <span class="keyword">end</span></span><br><span class="line">        <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">return</span> recursionIsA(<span class="built_in">self</span>, cls) <span class="keyword">or</span> <span class="built_in">self</span>.__cname == cls.__cname</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">_G</span>.Class = Class</span><br><span class="line"><span class="built_in">_G</span>.IsA = IsA</span><br></pre></td></tr></table></figure><h1><span id="测试代码">测试代码</span></h1><figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">-- Test Code</span></span><br><span class="line"><span class="keyword">local</span> clsXX = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsXX&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objXX&#x27;</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">self</span>.__cname, clsXX.__cname, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Print</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;clsXX Print&#x27;</span>, <span class="built_in">self</span>.name, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsXX:Dtor</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Dtor&#x27;</span>, <span class="built_in">self</span>.name, <span class="built_in">self</span>.__cname, clsXX.__cname)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsYY = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsYY&#x27;</span>)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objYY&#x27;</span></span><br><span class="line">    <span class="built_in">print</span>(<span class="built_in">self</span>.__cname, clsYY.__cname, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Print</span><span class="params">(...)</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;clsYY Print&#x27;</span>, <span class="built_in">self</span>.name, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsYY:Dtor</span><span class="params">()</span></span></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;Dtor&#x27;</span>, <span class="built_in">self</span>.name, <span class="built_in">self</span>.__cname, clsYY.__cname)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsB = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsB&#x27;</span>, clsXX)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objB&#x27;</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Print</span><span class="params">(...)</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Print&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsB:Dtor</span><span class="params">()</span></span></span><br><span class="line">    clsB.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Dtor&#x27;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> clsC = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsC&#x27;</span>, clsB, clsYY)</span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Ctor</span><span class="params">(...)</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Ctor&#x27;</span>, ...)</span><br><span class="line">    <span class="built_in">self</span>.name = <span class="string">&#x27;objC&#x27;</span></span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Print</span><span class="params">(...)</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Print&#x27;</span>, ...)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">clsC:Dtor</span><span class="params">()</span></span></span><br><span class="line">    clsC.CallSuper(<span class="built_in">self</span>, <span class="string">&#x27;Dtor&#x27;</span>)</span><br><span class="line"><span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">local</span> objXX = clsXX.New()</span><br><span class="line"><span class="keyword">local</span> objB = clsB(<span class="number">1</span>)</span><br><span class="line"><span class="keyword">local</span> objC = clsC(<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>)</span><br><span class="line">objXX:Print()</span><br><span class="line">objB:Print()</span><br><span class="line">objC:Print()</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objB, clsB)&#x27;</span>, <span class="built_in">_G</span>.IsA(objB, clsB))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objB, clsC)&#x27;</span>, <span class="built_in">_G</span>.IsA(objB, clsC))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objC, clsXX)&#x27;</span>, <span class="built_in">_G</span>.IsA(objC, clsXX))</span><br><span class="line"><span class="built_in">print</span>(<span class="string">&#x27;IsA(objC, clsYY)&#x27;</span>, <span class="built_in">_G</span>.IsA(objC, clsYY))</span><br><span class="line"><span class="keyword">local</span> clsFunc = <span class="built_in">_G</span>.Class(<span class="string">&#x27;clsFunc&#x27;</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span></span></span><br><span class="line">    <span class="keyword">return</span> &#123;&#125;</span><br><span class="line"><span class="keyword">end</span>, clsB)</span><br><span class="line"><span class="keyword">local</span> objFunc = clsFunc()</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Lua </category>
           
       </categories>
       
@@ -2076,6 +2102,27 @@
     
     
     <entry>
+      <title>UnLua</title>
+      <link href="/fc559f4f.html"/>
+      <url>/fc559f4f.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>UnLua</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> UnLua </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>1 Overview</title>
       <link href="/9ddd6f57.html"/>
       <url>/9ddd6f57.html</url>
@@ -2150,7 +2197,7 @@
           
           <category> Programing </category>
           
-          <category> Shell </category>
+          <category> TypeScript </category>
           
       </categories>
       
@@ -2171,28 +2218,7 @@
           
           <category> Programing </category>
           
-          <category> TypeScript </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UnLua</title>
-      <link href="/fc559f4f.html"/>
-      <url>/fc559f4f.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>UnLua</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> UnLua </category>
+          <category> Shell </category>
           
       </categories>
       
@@ -2634,29 +2660,6 @@
     
     
     <entry>
-      <title>Generative AI</title>
-      <link href="/1b9a8a71.html"/>
-      <url>/1b9a8a71.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Generative AI</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Base Knowledge </category>
-          
-          <category> Artificial Intelligence </category>
-          
-          <category> Generative AI </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Animation</title>
       <link href="/fa3067f.html"/>
       <url>/fa3067f.html</url>
@@ -2671,6 +2674,29 @@
           <category> Computer Graphics </category>
           
           <category> Animation </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Generative AI</title>
+      <link href="/1b9a8a71.html"/>
+      <url>/1b9a8a71.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Generative AI</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Base Knowledge </category>
+          
+          <category> Artificial Intelligence </category>
+          
+          <category> Generative AI </category>
           
       </categories>
       
@@ -2703,27 +2729,6 @@
     
     
     <entry>
-      <title>TypeScript</title>
-      <link href="/d044eab7.html"/>
-      <url>/d044eab7.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>TypeScript</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> TypeScript </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Profile</title>
       <link href="/4eea9393.html"/>
       <url>/4eea9393.html</url>
@@ -2745,6 +2750,27 @@
     
     
     <entry>
+      <title>TypeScript</title>
+      <link href="/d044eab7.html"/>
+      <url>/d044eab7.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>TypeScript</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> TypeScript </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Z Reference Link</title>
       <link href="/de94bfed.html"/>
       <url>/de94bfed.html</url>
@@ -2755,27 +2781,6 @@
       <categories>
           
           <category> Base Knowledge </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Shell</title>
-      <link href="/84539df9.html"/>
-      <url>/84539df9.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Shell</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Shell </category>
           
       </categories>
       
@@ -2806,18 +2811,18 @@
     
     
     <entry>
-      <title>Rust</title>
-      <link href="/41002d9e.html"/>
-      <url>/41002d9e.html</url>
+      <title>Shell</title>
+      <link href="/84539df9.html"/>
+      <url>/84539df9.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Rust</code></p>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Shell</code></p>]]></content>
       
       
       <categories>
           
           <category> Programing </category>
           
-          <category> Rust </category>
+          <category> Shell </category>
           
       </categories>
       
@@ -2911,6 +2916,27 @@
     
     
     <entry>
+      <title>Rust</title>
+      <link href="/41002d9e.html"/>
+      <url>/41002d9e.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Rust</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Rust </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Operating system</title>
       <link href="/b1e67c3e.html"/>
       <url>/b1e67c3e.html</url>
@@ -2923,27 +2949,6 @@
           <category> Base Knowledge </category>
           
           <category> Operating system </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Python</title>
-      <link href="/a378bd8e.html"/>
-      <url>/a378bd8e.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Python</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Python </category>
           
       </categories>
       
@@ -2995,6 +3000,27 @@
     
     
     <entry>
+      <title>Python</title>
+      <link href="/a378bd8e.html"/>
+      <url>/a378bd8e.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Python</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Python </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Data Structures &amp; Algorithm</title>
       <link href="/73b8421c.html"/>
       <url>/73b8421c.html</url>
@@ -3016,27 +3042,6 @@
     
     
     <entry>
-      <title>Lua</title>
-      <link href="/ee3c71cb.html"/>
-      <url>/ee3c71cb.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Lua</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Lua </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Editor Extension</title>
       <link href="/608296a3.html"/>
       <url>/608296a3.html</url>
@@ -3049,6 +3054,27 @@
           <category> Unreal Engine </category>
           
           <category> Editor Extension </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Lua</title>
+      <link href="/ee3c71cb.html"/>
+      <url>/ee3c71cb.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Lua</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Lua </category>
           
       </categories>
       
@@ -3098,27 +3124,6 @@
     
     
     <entry>
-      <title>Design Pattern</title>
-      <link href="/4dbeaedc.html"/>
-      <url>/4dbeaedc.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Design Pattern</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Debug</title>
       <link href="/ad6468a3.html"/>
       <url>/ad6468a3.html</url>
@@ -3131,6 +3136,27 @@
           <category> Unreal Engine </category>
           
           <category> Debug </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Design Pattern</title>
+      <link href="/4dbeaedc.html"/>
+      <url>/4dbeaedc.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Design Pattern</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
           
       </categories>
       
@@ -3161,27 +3187,6 @@
     
     
     <entry>
-      <title>Cuda</title>
-      <link href="/c1fb7d19.html"/>
-      <url>/c1fb7d19.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Cuda</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Cuda </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Core</title>
       <link href="/cbbf2a71.html"/>
       <url>/cbbf2a71.html</url>
@@ -3203,6 +3208,27 @@
     
     
     <entry>
+      <title>Cuda</title>
+      <link href="/c1fb7d19.html"/>
+      <url>/c1fb7d19.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Cuda</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Cuda </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Computer Graphics</title>
       <link href="/a90338dd.html"/>
       <url>/a90338dd.html</url>
@@ -3215,27 +3241,6 @@
           <category> Base Knowledge </category>
           
           <category> Computer Graphics </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Code Style</title>
-      <link href="/ab0032e6.html"/>
-      <url>/ab0032e6.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Code Style</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Code Style </category>
           
       </categories>
       
@@ -3287,6 +3292,27 @@
     
     
     <entry>
+      <title>Code Style</title>
+      <link href="/ab0032e6.html"/>
+      <url>/ab0032e6.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Code Style</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Code Style </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Compilation Principle</title>
       <link href="/9aec7ab9.html"/>
       <url>/9aec7ab9.html</url>
@@ -3299,27 +3325,6 @@
           <category> Base Knowledge </category>
           
           <category> Compilation Principle </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C&amp;C++</title>
-      <link href="/f43812d6.html"/>
-      <url>/f43812d6.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>C&amp;C++</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> C&amp;C++ </category>
           
       </categories>
       
@@ -3371,6 +3376,27 @@
     
     
     <entry>
+      <title>C&amp;C++</title>
+      <link href="/f43812d6.html"/>
+      <url>/f43812d6.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>C&amp;C++</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> C&amp;C++ </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Artificial Intelligence</title>
       <link href="/b391781d.html"/>
       <url>/b391781d.html</url>
@@ -3383,27 +3409,6 @@
           <category> Base Knowledge </category>
           
           <category> Artificial Intelligence </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C#</title>
-      <link href="/38ea7f4b.html"/>
-      <url>/38ea7f4b.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>C#</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> C# </category>
           
       </categories>
       
@@ -3446,6 +3451,27 @@
           <category> Work Experience </category>
           
           <category> Efficiency </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#</title>
+      <link href="/38ea7f4b.html"/>
+      <url>/38ea7f4b.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>C#</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> C# </category>
           
       </categories>
       
