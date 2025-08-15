@@ -53,29 +53,6 @@
     
     
     <entry>
-      <title>UGameplayEffect</title>
-      <link href="/2303a7ba.html"/>
-      <url>/2303a7ba.html</url>
-      
-        <content type="html"><![CDATA[<p>游戏操作的效果。效果可以临时或永久修改属性、赋予或取销标签、启用对其他技能的访问等等。<br>Gameplay效果是支持GAS的Actor相互交互的最常见方式。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>11 Interpreter</title>
       <link href="/78952bdb.html"/>
       <url>/78952bdb.html</url>
@@ -99,11 +76,11 @@
     
     
     <entry>
-      <title>UGameplayAbility</title>
-      <link href="/4d5d44a8.html"/>
-      <url>/4d5d44a8.html</url>
+      <title>UGameplayEffect</title>
+      <link href="/2303a7ba.html"/>
+      <url>/2303a7ba.html</url>
       
-        <content type="html"><![CDATA[<p>一种游戏操作，可以赋予支持GAS的Actor并由其执行，附带用于确定其需求、开销和其他行为的信息。</p>]]></content>
+        <content type="html"><![CDATA[<p>游戏操作的效果。效果可以临时或永久修改属性、赋予或取销标签、启用对其他技能的访问等等。<br>Gameplay效果是支持GAS的Actor相互交互的最常见方式。</p>]]></content>
       
       
       <categories>
@@ -145,6 +122,29 @@
     
     
     <entry>
+      <title>UGameplayAbility</title>
+      <link href="/4d5d44a8.html"/>
+      <url>/4d5d44a8.html</url>
+      
+        <content type="html"><![CDATA[<p>一种游戏操作，可以赋予支持GAS的Actor并由其执行，附带用于确定其需求、开销和其他行为的信息。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>前缀和 &amp; 差分</title>
       <link href="/bf1dd6df.html"/>
       <url>/bf1dd6df.html</url>
@@ -159,29 +159,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UAttributeSet</title>
-      <link href="/76cb5781.html"/>
-      <url>/76cb5781.html</url>
-      
-        <content type="html"><![CDATA[<p>在游戏机制中具有特定含义的一系列属性或数值。<br>属性可以代表游戏资源，例如”生命值（Health）”、可以影响其他游戏规则的参考值，例如”基础攻击力（Base Attack Power）”，甚至可以代表无状态量，例如”施加的伤害（Applied Damage）”。<br>属性集（Attribute Sets）负责定义、管理、复制一个或多个属性（Attribute）的属性值。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
           
       </categories>
       
@@ -214,6 +191,29 @@
     
     
     <entry>
+      <title>UAttributeSet</title>
+      <link href="/76cb5781.html"/>
+      <url>/76cb5781.html</url>
+      
+        <content type="html"><![CDATA[<p>在游戏机制中具有特定含义的一系列属性或数值。<br>属性可以代表游戏资源，例如”生命值（Health）”、可以影响其他游戏规则的参考值，例如”基础攻击力（Base Attack Power）”，甚至可以代表无状态量，例如”施加的伤害（Applied Damage）”。<br>属性集（Attribute Sets）负责定义、管理、复制一个或多个属性（Attribute）的属性值。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Sort</title>
       <link href="/f1165d1c.html"/>
       <url>/f1165d1c.html</url>
@@ -228,29 +228,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UAbilityTask</title>
-      <link href="/c30a1442.html"/>
-      <url>/c30a1442.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
           
       </categories>
       
@@ -306,34 +283,11 @@
     
     
     <entry>
-      <title>Recursion &amp; Divide and Conquer</title>
-      <link href="/f28955a2.html"/>
-      <url>/f28955a2.html</url>
+      <title>UAbilityTask</title>
+      <link href="/c30a1442.html"/>
+      <url>/c30a1442.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Base Knowledge </category>
-          
-          <category> Data Structures &amp; Algorithm </category>
-          
-          <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>UAbilitySystemComponent</title>
-      <link href="/321b2737.html"/>
-      <url>/321b2737.html</url>
-      
-        <content type="html"><![CDATA[<p>一种 <strong>技能系统组件</strong> （ <strong>ASC</strong> ），可以添加到Actor，以便为其提供GAS功能。<br>这会跟踪特定Actor的状态，并处理复制。</p>]]></content>
       
       
       <categories>
@@ -352,20 +306,20 @@
     
     
     <entry>
-      <title>Significance Manager</title>
-      <link href="/2d172444.html"/>
-      <url>/2d172444.html</url>
+      <title>Recursion &amp; Divide and Conquer</title>
+      <link href="/f28955a2.html"/>
+      <url>/f28955a2.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> Unreal Engine </category>
+          <category> Base Knowledge </category>
           
-          <category> GamePlay </category>
+          <category> Data Structures &amp; Algorithm </category>
           
-          <category> Replication </category>
+          <category> Basic Algorithm </category>
           
       </categories>
       
@@ -412,6 +366,52 @@
           <category> Design Pattern </category>
           
           <category> 3 Behavioral </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UAbilitySystemComponent</title>
+      <link href="/321b2737.html"/>
+      <url>/321b2737.html</url>
+      
+        <content type="html"><![CDATA[<p>一种 <strong>技能系统组件</strong> （ <strong>ASC</strong> ），可以添加到Actor，以便为其提供GAS功能。<br>这会跟踪特定Actor的状态，并处理复制。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Significance Manager</title>
+      <link href="/2d172444.html"/>
+      <url>/2d172444.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Replication </category>
           
       </categories>
       
@@ -536,75 +536,6 @@
     
     
     <entry>
-      <title>AGameStateBase</title>
-      <link href="/1c2d50fe.html"/>
-      <url>/1c2d50fe.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Framwork </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>FGameplayTag</title>
-      <link href="/b544f9e1.html"/>
-      <url>/b544f9e1.html</url>
-      
-        <content type="html"><![CDATA[<p>可以应用于游戏对象的任意层级标识符。<br>这些标签可用于识别、分类、筛选游戏实体。<br>它们可以通过Gameplay效果和技能来赋予或取消，并且可以影响其行为。比如 <code>Gameplay.DamageImmunity</code> 标签，它可以防止对所有者的头像&#x2F;Pawn造成伤害。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Replication Graph</title>
-      <link href="/2772613d.html"/>
-      <url>/2772613d.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Replication </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>5 Facade</title>
       <link href="/462eceee.html"/>
       <url>/462eceee.html</url>
@@ -674,6 +605,75 @@
     
     
     <entry>
+      <title>AGameStateBase</title>
+      <link href="/1c2d50fe.html"/>
+      <url>/1c2d50fe.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Framwork </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>FGameplayTag</title>
+      <link href="/b544f9e1.html"/>
+      <url>/b544f9e1.html</url>
+      
+        <content type="html"><![CDATA[<p>可以应用于游戏对象的任意层级标识符。<br>这些标签可用于识别、分类、筛选游戏实体。<br>它们可以通过Gameplay效果和技能来赋予或取消，并且可以影响其行为。比如 <code>Gameplay.DamageImmunity</code> 标签，它可以防止对所有者的头像&#x2F;Pawn造成伤害。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Replication Graph</title>
+      <link href="/2772613d.html"/>
+      <url>/2772613d.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Replication </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>实时高质量着色</title>
       <link href="/e42b27d1.html"/>
       <url>/e42b27d1.html</url>
@@ -711,75 +711,6 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AGameModeBase</title>
-      <link href="/c4308202.html"/>
-      <url>/c4308202.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Framwork </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>AGameplayCueNotify_Actor</title>
-      <link href="/fad64f1c.html"/>
-      <url>/fad64f1c.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Optimization</title>
-      <link href="/787d9e55.html"/>
-      <url>/787d9e55.html</url>
-      
-        <content type="html"><![CDATA[<h1><span id="global-level">Global Level</span></h1><h2><span id="net-frequency">Net Frequency</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AdaptiveNetUpdateFrequency</span><br></pre></td></tr></table></figure><h2><span id="replication-pausing">Replication Pausing</span></h2><h1><span id="object-level">Object Level</span></h1><h2><span id="rep-graph">Rep Graph</span></h2><h2><span id="net-relevancy">Net Relevancy</span></h2><h2><span id="net-dormancy">Net Dormancy</span></h2><h2><span id="replication-keys">Replication Keys</span></h2><h1><span id="property-level">Property Level</span></h1><h2><span id="property-conditions">Property Conditions</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">COND_None = 0UMETA(DisplayName = &quot;None&quot;),// This property has no condition, and will send anytime it changes</span><br><span class="line">COND_InitialOnly = 1UMETA(DisplayName = &quot;Initial Only&quot;),// This property will only attempt to send on the initial bunch</span><br><span class="line">COND_OwnerOnly = 2UMETA(DisplayName = &quot;Owner Only&quot;),// This property will only send to the actor&#x27;s owner</span><br><span class="line">COND_SkipOwner = 3UMETA(DisplayName = &quot;Skip Owner&quot;),// This property send to every connection EXCEPT the owner</span><br><span class="line">COND_SimulatedOnly = 4UMETA(DisplayName = &quot;Simulated Only&quot;),// This property will only send to simulated actors</span><br><span class="line">COND_AutonomousOnly = 5UMETA(DisplayName = &quot;Autonomous Only&quot;),// This property will only send to autonomous actors</span><br><span class="line">COND_SimulatedOrPhysics = 6UMETA(DisplayName = &quot;Simulated Or Physics&quot;),// This property will send to simulated OR bRepPhysics actors</span><br><span class="line">COND_InitialOrOwner = 7UMETA(DisplayName = &quot;Initial Or Owner&quot;),// This property will send on the initial packet, or to the actors owner</span><br><span class="line">COND_Custom = 8UMETA(DisplayName = &quot;Custom&quot;),// This property has no particular condition, but wants the ability to toggle on/off via SetCustomIsActiveOverride</span><br></pre></td></tr></table></figure><h2><span id="fast-array-serialization">Fast Array Serialization</span></h2><h2><span id="rep-changed-trackers">Rep Changed Trackers</span></h2><h2><span id="push-model">Push Model</span></h2><h3><span id="开启">开启</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// Server.Target.cs</span><br><span class="line">bWithPushModel = true;</span><br></pre></td></tr></table></figure><h3><span id="声明">声明</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FDoRepLifetimeParams Params;</span><br><span class="line">Params.bIsPushBase = true;</span><br><span class="line">**DOREPLIFETIME_WITH_PARAMS_FAST**</span><br><span class="line">**DOREPLIFETIME_WITH_PARAMS**</span><br></pre></td></tr></table></figure><h3><span id="标记">标记</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// PushModel.h</span><br><span class="line"></span><br><span class="line">#define MARK_PROPERTY_DIRTY(Object, Property) </span><br><span class="line">#define MARK_PROPERTY_DIRTY_STATIC_ARRAY_INDEX(Object, RepIndex, ArrayIndex) </span><br><span class="line">#define MARK_PROPERTY_DIRTY_STATIC_ARRAY(Object, RepIndex, ArrayIndex) </span><br><span class="line"></span><br><span class="line">// 标记动态数组、结构体、对象、普通变量</span><br><span class="line">#define MARK_PROPERTY_DIRTY_FROM_NAME(ClassName, PropertyName, Object) </span><br><span class="line">// 标记静态数组的某个元素（对于静态数组，每一个元素都有独立的ReplIndex， 所以可以只标记其中某一个元素发生了改变）</span><br><span class="line">#define MARK_PROPERTY_DIRTY_FROM_NAME_STATIC_ARRAY_INDEX(ClassName, PropertyName, ArrayIndex, Object) </span><br><span class="line">// 标记静态数组发生了改变</span><br><span class="line">#define MARK_PROPERTY_DIRTY_FROM_NAME_STATIC_ARRAY(ClassName, PropertyName, ArrayIndex, Object) </span><br><span class="line"></span><br></pre></td></tr></table></figure><h3><span id="对比">对比</span></h3><p>标记变量为dirty之后也会进行变量比较，会判断变量是否真的发生了改变，若改变才会进行同步。</p><h1><span id="serialize-level">Serialize Level</span></h1><h2><span id="netquantize">NetQuantize</span></h2><h2><span id="custom">Custom</span></h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Replication </category>
           
       </categories>
       
@@ -849,6 +780,75 @@
           <category> Design Pattern </category>
           
           <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AGameModeBase</title>
+      <link href="/c4308202.html"/>
+      <url>/c4308202.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Framwork </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AGameplayCueNotify_Actor</title>
+      <link href="/fad64f1c.html"/>
+      <url>/fad64f1c.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Optimization</title>
+      <link href="/787d9e55.html"/>
+      <url>/787d9e55.html</url>
+      
+        <content type="html"><![CDATA[<h1><span id="global-level">Global Level</span></h1><h2><span id="net-frequency">Net Frequency</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">AdaptiveNetUpdateFrequency</span><br></pre></td></tr></table></figure><h2><span id="replication-pausing">Replication Pausing</span></h2><h1><span id="object-level">Object Level</span></h1><h2><span id="rep-graph">Rep Graph</span></h2><h2><span id="net-relevancy">Net Relevancy</span></h2><h2><span id="net-dormancy">Net Dormancy</span></h2><h2><span id="replication-keys">Replication Keys</span></h2><h1><span id="property-level">Property Level</span></h1><h2><span id="property-conditions">Property Conditions</span></h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">COND_None = 0UMETA(DisplayName = &quot;None&quot;),// This property has no condition, and will send anytime it changes</span><br><span class="line">COND_InitialOnly = 1UMETA(DisplayName = &quot;Initial Only&quot;),// This property will only attempt to send on the initial bunch</span><br><span class="line">COND_OwnerOnly = 2UMETA(DisplayName = &quot;Owner Only&quot;),// This property will only send to the actor&#x27;s owner</span><br><span class="line">COND_SkipOwner = 3UMETA(DisplayName = &quot;Skip Owner&quot;),// This property send to every connection EXCEPT the owner</span><br><span class="line">COND_SimulatedOnly = 4UMETA(DisplayName = &quot;Simulated Only&quot;),// This property will only send to simulated actors</span><br><span class="line">COND_AutonomousOnly = 5UMETA(DisplayName = &quot;Autonomous Only&quot;),// This property will only send to autonomous actors</span><br><span class="line">COND_SimulatedOrPhysics = 6UMETA(DisplayName = &quot;Simulated Or Physics&quot;),// This property will send to simulated OR bRepPhysics actors</span><br><span class="line">COND_InitialOrOwner = 7UMETA(DisplayName = &quot;Initial Or Owner&quot;),// This property will send on the initial packet, or to the actors owner</span><br><span class="line">COND_Custom = 8UMETA(DisplayName = &quot;Custom&quot;),// This property has no particular condition, but wants the ability to toggle on/off via SetCustomIsActiveOverride</span><br></pre></td></tr></table></figure><h2><span id="fast-array-serialization">Fast Array Serialization</span></h2><h2><span id="rep-changed-trackers">Rep Changed Trackers</span></h2><h2><span id="push-model">Push Model</span></h2><h3><span id="开启">开启</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// Server.Target.cs</span><br><span class="line">bWithPushModel = true;</span><br></pre></td></tr></table></figure><h3><span id="声明">声明</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FDoRepLifetimeParams Params;</span><br><span class="line">Params.bIsPushBase = true;</span><br><span class="line">**DOREPLIFETIME_WITH_PARAMS_FAST**</span><br><span class="line">**DOREPLIFETIME_WITH_PARAMS**</span><br></pre></td></tr></table></figure><h3><span id="标记">标记</span></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">// PushModel.h</span><br><span class="line"></span><br><span class="line">#define MARK_PROPERTY_DIRTY(Object, Property) </span><br><span class="line">#define MARK_PROPERTY_DIRTY_STATIC_ARRAY_INDEX(Object, RepIndex, ArrayIndex) </span><br><span class="line">#define MARK_PROPERTY_DIRTY_STATIC_ARRAY(Object, RepIndex, ArrayIndex) </span><br><span class="line"></span><br><span class="line">// 标记动态数组、结构体、对象、普通变量</span><br><span class="line">#define MARK_PROPERTY_DIRTY_FROM_NAME(ClassName, PropertyName, Object) </span><br><span class="line">// 标记静态数组的某个元素（对于静态数组，每一个元素都有独立的ReplIndex， 所以可以只标记其中某一个元素发生了改变）</span><br><span class="line">#define MARK_PROPERTY_DIRTY_FROM_NAME_STATIC_ARRAY_INDEX(ClassName, PropertyName, ArrayIndex, Object) </span><br><span class="line">// 标记静态数组发生了改变</span><br><span class="line">#define MARK_PROPERTY_DIRTY_FROM_NAME_STATIC_ARRAY(ClassName, PropertyName, ArrayIndex, Object) </span><br><span class="line"></span><br></pre></td></tr></table></figure><h3><span id="对比">对比</span></h3><p>标记变量为dirty之后也会进行变量比较，会判断变量是否真的发生了改变，若改变才会进行同步。</p><h1><span id="serialize-level">Serialize Level</span></h1><h2><span id="netquantize">NetQuantize</span></h2><h2><span id="custom">Custom</span></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Replication </category>
           
       </categories>
       
@@ -1197,52 +1197,6 @@
     
     
     <entry>
-      <title>NavMesh</title>
-      <link href="/5c7b52be.html"/>
-      <url>/5c7b52be.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>NavMesh</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> AI </category>
-          
-          <category> NavMesh </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Replication</title>
-      <link href="/d454ba70.html"/>
-      <url>/d454ba70.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Replication</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Replication </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>2 Bridge</title>
       <link href="/b26119ff.html"/>
       <url>/b26119ff.html</url>
@@ -1303,6 +1257,52 @@
           <category> Design Pattern </category>
           
           <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>NavMesh</title>
+      <link href="/5c7b52be.html"/>
+      <url>/5c7b52be.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>NavMesh</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> AI </category>
+          
+          <category> NavMesh </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Replication</title>
+      <link href="/d454ba70.html"/>
+      <url>/d454ba70.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Replication</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Replication </category>
           
       </categories>
       
@@ -1442,52 +1442,6 @@
     
     
     <entry>
-      <title>EnvironmentQuery</title>
-      <link href="/152a818d.html"/>
-      <url>/152a818d.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>EnvironmentQuery</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> AI </category>
-          
-          <category> EnvironmentQuery </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Game Ability System</title>
-      <link href="/a131da00.html"/>
-      <url>/a131da00.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Game Ability System</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> GamePlay </category>
-          
-          <category> Game Ability System </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>1 Adapter</title>
       <link href="/6d3820f7.html"/>
       <url>/6d3820f7.html</url>
@@ -1534,18 +1488,43 @@
     
     
     <entry>
-      <title>Java Native Interface</title>
-      <link href="/87a1b898.html"/>
-      <url>/87a1b898.html</url>
+      <title>EnvironmentQuery</title>
+      <link href="/152a818d.html"/>
+      <url>/152a818d.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>EnvironmentQuery</code></p>]]></content>
       
       
       <categories>
           
           <category> Unreal Engine </category>
           
-          <category> Platform </category>
+          <category> AI </category>
+          
+          <category> EnvironmentQuery </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Game Ability System</title>
+      <link href="/a131da00.html"/>
+      <url>/a131da00.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Game Ability System</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> GamePlay </category>
+          
+          <category> Game Ability System </category>
           
       </categories>
       
@@ -1567,6 +1546,27 @@
           <category> Programing </category>
           
           <category> Lua </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java Native Interface</title>
+      <link href="/87a1b898.html"/>
+      <url>/87a1b898.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> Platform </category>
           
       </categories>
       
@@ -2102,27 +2102,6 @@
     
     
     <entry>
-      <title>UnLua</title>
-      <link href="/fc559f4f.html"/>
-      <url>/fc559f4f.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>UnLua</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> UnLua </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>1 Overview</title>
       <link href="/9ddd6f57.html"/>
       <url>/9ddd6f57.html</url>
@@ -2197,7 +2176,7 @@
           
           <category> Programing </category>
           
-          <category> TypeScript </category>
+          <category> Shell </category>
           
       </categories>
       
@@ -2218,7 +2197,28 @@
           
           <category> Programing </category>
           
-          <category> Shell </category>
+          <category> TypeScript </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UnLua</title>
+      <link href="/fc559f4f.html"/>
+      <url>/fc559f4f.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>UnLua</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> UnLua </category>
           
       </categories>
       
@@ -2557,7 +2557,7 @@
       <link href="/71b19194.html"/>
       <url>/71b19194.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：&#96;Dy</p>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Dynamic Programming</code></p>]]></content>
       
       
       <categories>
@@ -2660,29 +2660,6 @@
     
     
     <entry>
-      <title>Animation</title>
-      <link href="/fa3067f.html"/>
-      <url>/fa3067f.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Base Knowledge </category>
-          
-          <category> Computer Graphics </category>
-          
-          <category> Animation </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Generative AI</title>
       <link href="/1b9a8a71.html"/>
       <url>/1b9a8a71.html</url>
@@ -2697,6 +2674,29 @@
           <category> Artificial Intelligence </category>
           
           <category> Generative AI </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Animation</title>
+      <link href="/fa3067f.html"/>
+      <url>/fa3067f.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Base Knowledge </category>
+          
+          <category> Computer Graphics </category>
+          
+          <category> Animation </category>
           
       </categories>
       
@@ -2729,27 +2729,6 @@
     
     
     <entry>
-      <title>Profile</title>
-      <link href="/4eea9393.html"/>
-      <url>/4eea9393.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Profile</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> Profile </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>TypeScript</title>
       <link href="/d044eab7.html"/>
       <url>/d044eab7.html</url>
@@ -2771,6 +2750,27 @@
     
     
     <entry>
+      <title>Profile</title>
+      <link href="/4eea9393.html"/>
+      <url>/4eea9393.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Profile</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> Profile </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Z Reference Link</title>
       <link href="/de94bfed.html"/>
       <url>/de94bfed.html</url>
@@ -2781,6 +2781,27 @@
       <categories>
           
           <category> Base Knowledge </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Shell</title>
+      <link href="/84539df9.html"/>
+      <url>/84539df9.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Shell</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Shell </category>
           
       </categories>
       
@@ -2811,18 +2832,18 @@
     
     
     <entry>
-      <title>Shell</title>
-      <link href="/84539df9.html"/>
-      <url>/84539df9.html</url>
+      <title>Rust</title>
+      <link href="/41002d9e.html"/>
+      <url>/41002d9e.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Shell</code></p>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Rust</code></p>]]></content>
       
       
       <categories>
           
           <category> Programing </category>
           
-          <category> Shell </category>
+          <category> Rust </category>
           
       </categories>
       
@@ -2874,27 +2895,6 @@
     
     
     <entry>
-      <title>哈希函数</title>
-      <link href="/e4aff432.html"/>
-      <url>/e4aff432.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Work Experience </category>
-          
-          <category> Security </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Protobuf</title>
       <link href="/608ca7e8.html"/>
       <url>/608ca7e8.html</url>
@@ -2916,18 +2916,18 @@
     
     
     <entry>
-      <title>Rust</title>
-      <link href="/41002d9e.html"/>
-      <url>/41002d9e.html</url>
+      <title>哈希函数</title>
+      <link href="/e4aff432.html"/>
+      <url>/e4aff432.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Rust</code></p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> Programing </category>
+          <category> Work Experience </category>
           
-          <category> Rust </category>
+          <category> Security </category>
           
       </categories>
       
@@ -2949,6 +2949,27 @@
           <category> Base Knowledge </category>
           
           <category> Operating system </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python</title>
+      <link href="/a378bd8e.html"/>
+      <url>/a378bd8e.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Python</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Python </category>
           
       </categories>
       
@@ -3000,32 +3021,11 @@
     
     
     <entry>
-      <title>Python</title>
-      <link href="/a378bd8e.html"/>
-      <url>/a378bd8e.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Python</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Python </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Data Structures &amp; Algorithm</title>
       <link href="/73b8421c.html"/>
       <url>/73b8421c.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：&#96;Data Struc</p>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Data Structures &amp; Algorithm</code></p>]]></content>
       
       
       <categories>
@@ -3033,27 +3033,6 @@
           <category> Base Knowledge </category>
           
           <category> Data Structures &amp; Algorithm </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Editor Extension</title>
-      <link href="/608296a3.html"/>
-      <url>/608296a3.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Editor Extension</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> Editor Extension </category>
           
       </categories>
       
@@ -3075,6 +3054,27 @@
           <category> Programing </category>
           
           <category> Lua </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Editor Extension</title>
+      <link href="/608296a3.html"/>
+      <url>/608296a3.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Editor Extension</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> Editor Extension </category>
           
       </categories>
       
@@ -3124,27 +3124,6 @@
     
     
     <entry>
-      <title>Debug</title>
-      <link href="/ad6468a3.html"/>
-      <url>/ad6468a3.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Debug</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Unreal Engine </category>
-          
-          <category> Debug </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Design Pattern</title>
       <link href="/4dbeaedc.html"/>
       <url>/4dbeaedc.html</url>
@@ -3166,18 +3145,18 @@
     
     
     <entry>
-      <title>Computer Network</title>
-      <link href="/acc2fc2f.html"/>
-      <url>/acc2fc2f.html</url>
+      <title>Debug</title>
+      <link href="/ad6468a3.html"/>
+      <url>/ad6468a3.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：</p>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Debug</code></p>]]></content>
       
       
       <categories>
           
-          <category> Base Knowledge </category>
+          <category> Unreal Engine </category>
           
-          <category> Computer Network </category>
+          <category> Debug </category>
           
       </categories>
       
@@ -3187,18 +3166,18 @@
     
     
     <entry>
-      <title>Core</title>
-      <link href="/cbbf2a71.html"/>
-      <url>/cbbf2a71.html</url>
+      <title>Computer Network</title>
+      <link href="/acc2fc2f.html"/>
+      <url>/acc2fc2f.html</url>
       
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Core</code></p>]]></content>
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Computer Network</code></p>]]></content>
       
       
       <categories>
           
-          <category> Unreal Engine </category>
+          <category> Base Knowledge </category>
           
-          <category> Core </category>
+          <category> Computer Network </category>
           
       </categories>
       
@@ -3229,6 +3208,27 @@
     
     
     <entry>
+      <title>Core</title>
+      <link href="/cbbf2a71.html"/>
+      <url>/cbbf2a71.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Core</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Unreal Engine </category>
+          
+          <category> Core </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Computer Graphics</title>
       <link href="/a90338dd.html"/>
       <url>/a90338dd.html</url>
@@ -3241,6 +3241,27 @@
           <category> Base Knowledge </category>
           
           <category> Computer Graphics </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Code Style</title>
+      <link href="/ab0032e6.html"/>
+      <url>/ab0032e6.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>Code Style</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Code Style </category>
           
       </categories>
       
@@ -3292,27 +3313,6 @@
     
     
     <entry>
-      <title>Code Style</title>
-      <link href="/ab0032e6.html"/>
-      <url>/ab0032e6.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>Code Style</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Code Style </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Compilation Principle</title>
       <link href="/9aec7ab9.html"/>
       <url>/9aec7ab9.html</url>
@@ -3325,6 +3325,27 @@
           <category> Base Knowledge </category>
           
           <category> Compilation Principle </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C&amp;C++</title>
+      <link href="/f43812d6.html"/>
+      <url>/f43812d6.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>C&amp;C++</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> C&amp;C++ </category>
           
       </categories>
       
@@ -3376,27 +3397,6 @@
     
     
     <entry>
-      <title>C&amp;C++</title>
-      <link href="/f43812d6.html"/>
-      <url>/f43812d6.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>C&amp;C++</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> C&amp;C++ </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Artificial Intelligence</title>
       <link href="/b391781d.html"/>
       <url>/b391781d.html</url>
@@ -3409,6 +3409,27 @@
           <category> Base Knowledge </category>
           
           <category> Artificial Intelligence </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C#</title>
+      <link href="/38ea7f4b.html"/>
+      <url>/38ea7f4b.html</url>
+      
+        <content type="html"><![CDATA[<p>自动关联目录：<code>C#</code></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> C# </category>
           
       </categories>
       
@@ -3451,27 +3472,6 @@
           <category> Work Experience </category>
           
           <category> Efficiency </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C#</title>
-      <link href="/38ea7f4b.html"/>
-      <url>/38ea7f4b.html</url>
-      
-        <content type="html"><![CDATA[<p>自动关联目录：<code>C#</code></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> C# </category>
           
       </categories>
       
