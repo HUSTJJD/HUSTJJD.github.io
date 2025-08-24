@@ -444,6 +444,29 @@
     
     
     <entry>
+      <title>6 Summary</title>
+      <link href="/dead4f21.html"/>
+      <url>/dead4f21.html</url>
+      
+        <content type="html"><![CDATA[<p>创建型模式提供了创建对象的机制，能够提升已有代码的灵活性和可复用性。</p><p>通过对象创建模式，绕开new，以避免紧耦合，支持对象创建的稳定。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>6 Flyweight</title>
       <link href="/1369d00.html"/>
       <url>/1369d00.html</url>
@@ -490,29 +513,6 @@
     
     
     <entry>
-      <title>6 Summary</title>
-      <link href="/dead4f21.html"/>
-      <url>/dead4f21.html</url>
-      
-        <content type="html"><![CDATA[<p>创建型模式提供了创建对象的机制，能够提升已有代码的灵活性和可复用性。</p><p>通过对象创建模式，绕开new，以避免紧耦合，支持对象创建的稳定。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Enumerate</title>
       <link href="/122d1b7f.html"/>
       <url>/122d1b7f.html</url>
@@ -527,6 +527,29 @@
           <category> Data Structures &amp; Algorithm </category>
           
           <category> Basic Algorithm </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>5 Singleton</title>
+      <link href="/7c49fddd.html"/>
+      <url>/7c49fddd.html</url>
+      
+        <content type="html"><![CDATA[<p>单例模式：</p><p>保证系统中只存在一个实例。 解决对象的性能问题。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> Singleton* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="type">static</span> Singleton* m_Instance;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">Singleton</span>( <span class="type">const</span> Singleton&amp; singleton );</span><br><span class="line">&#125;；</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 无脑锁</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">Lock lock;</span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全 双检查锁  内存指令重排下有问题（执行顺序与假象的不一致，可能没有构造就返回了）</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">Lock lock;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 双检查锁  volatile (强制从内存中读取一次、禁止指令重排)</span></span><br><span class="line">std::atomic&lt;Sigleton*&gt; Singleton::m_Instance;</span><br><span class="line">std::mutex Singleton:m_Mutex;</span><br><span class="line"></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">singleton *tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="comment">// 用于确保执行顺序</span></span><br><span class="line">std::<span class="built_in">atomic_thread_fence</span>(std::memory_order_acquire);</span><br><span class="line"><span class="keyword">if</span> ( tmp != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line"><span class="function">std::lock_guard&lt;std::mutex&gt; <span class="title">guard</span><span class="params">(m_Mutex)</span></span>;</span><br><span class="line">tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">tmp = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">atomic_thread_fence</span>(memory_order_release);</span><br><span class="line">m_Instance.<span class="built_in">store</span>(tmp, memory_order_relaxed);</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
           
       </categories>
       
@@ -573,29 +596,6 @@
           <category> Design Pattern </category>
           
           <category> 3 Behavioral </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>5 Singleton</title>
-      <link href="/7c49fddd.html"/>
-      <url>/7c49fddd.html</url>
-      
-        <content type="html"><![CDATA[<p>单例模式：</p><p>保证系统中只存在一个实例。 解决对象的性能问题。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="function"><span class="type">static</span> Singleton* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="type">static</span> Singleton* m_Instance;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">Singleton</span>( <span class="type">const</span> Singleton&amp; singleton );</span><br><span class="line">&#125;；</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 无脑锁</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">Lock lock;</span><br><span class="line">...</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程不安全 双检查锁  内存指令重排下有问题（执行顺序与假象的不一致，可能没有构造就返回了）</span></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">Lock lock;</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">m_Instance = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">// 线程安全 双检查锁  volatile (强制从内存中读取一次、禁止指令重排)</span></span><br><span class="line">std::atomic&lt;Sigleton*&gt; Singleton::m_Instance;</span><br><span class="line">std::mutex Singleton:m_Mutex;</span><br><span class="line"></span><br><span class="line"><span class="function">Singleton* <span class="title">Singleton::GetInstance</span><span class="params">()</span></span>&#123;</span><br><span class="line">singleton *tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="comment">// 用于确保执行顺序</span></span><br><span class="line">std::<span class="built_in">atomic_thread_fence</span>(std::memory_order_acquire);</span><br><span class="line"><span class="keyword">if</span> ( tmp != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line"><span class="function">std::lock_guard&lt;std::mutex&gt; <span class="title">guard</span><span class="params">(m_Mutex)</span></span>;</span><br><span class="line">tmp = m_Instance.<span class="built_in">load</span>(memory_order_relaxed);</span><br><span class="line"><span class="keyword">if</span> ( m_Instance != <span class="literal">nullptr</span> )</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">tmp = <span class="keyword">new</span> <span class="built_in">Singleton</span>();</span><br><span class="line"><span class="built_in">atomic_thread_fence</span>(memory_order_release);</span><br><span class="line">m_Instance.<span class="built_in">store</span>(tmp, memory_order_relaxed);</span><br><span class="line"><span class="keyword">return</span> m_Instance;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
           
       </categories>
       
@@ -720,6 +720,29 @@
     
     
     <entry>
+      <title>4 Prototype</title>
+      <link href="/7bfb464b.html"/>
+      <url>/7bfb464b.html</url>
+      
+        <content type="html"><![CDATA[<p>原型模式：</p><p>使用原型实例指定要创建对象的种类，并通过拷贝这些原型创建新的对象。<br>对象的状态变化剧烈&#x2F;创建复杂，需要记忆对象的状态。(对象池思想)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">Clone</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">// 需要用 深拷贝</span></span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Abstract</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>4 Decorator</title>
       <link href="/ebfe19bc.html"/>
       <url>/ebfe19bc.html</url>
@@ -757,29 +780,6 @@
           <category> Design Pattern </category>
           
           <category> 3 Behavioral </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>4 Prototype</title>
-      <link href="/7bfb464b.html"/>
-      <url>/7bfb464b.html</url>
-      
-        <content type="html"><![CDATA[<p>原型模式：</p><p>使用原型实例指定要创建对象的种类，并通过拷贝这些原型创建新的对象。<br>对象的状态变化剧烈&#x2F;创建复杂，需要记忆对象的状态。(对象池思想)</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">Clone</span><span class="params">()</span> </span>&#123;</span><br><span class="line"><span class="comment">// 需要用 深拷贝</span></span><br><span class="line"><span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Abstract</span>(*<span class="keyword">this</span>);</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
           
       </categories>
       
@@ -950,6 +950,29 @@
     
     
     <entry>
+      <title>3 Builder</title>
+      <link href="/8c35c344.html"/>
+      <url>/8c35c344.html</url>
+      
+        <content type="html"><![CDATA[<p>构建器模式：</p><p>一个复杂对象的一部分变化剧烈，一部分相对稳定。<br>将一个复杂对象的构建与其 表示 相分离，使得同样的构建过程（稳定）可以创建不同的表示（变化）。 （<strong>可调用子类虚函数的初始化函数</strong>）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="built_in">Abstract</span>()&#123;&#125;;</span><br><span class="line"><span class="comment">// 其实就是 模板方法，然后新建一个 初始化函数，以完成构造流程。</span></span><br><span class="line"><span class="comment">// 绕开构造函数无法调用虚函数的限制。</span></span><br><span class="line"><span class="comment">// 初始化函数足够复杂，可以拆出去作为新类，则，子类中不会继承这一块内容。</span></span><br><span class="line"><span class="built_in">Construct</span>()&#123;</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructA</span>();</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructB</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructA</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructB</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>3 Composite</title>
       <link href="/c9a00474.html"/>
       <url>/c9a00474.html</url>
@@ -987,29 +1010,6 @@
           <category> Design Pattern </category>
           
           <category> 3 Behavioral </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>3 Builder</title>
-      <link href="/8c35c344.html"/>
-      <url>/8c35c344.html</url>
-      
-        <content type="html"><![CDATA[<p>构建器模式：</p><p>一个复杂对象的一部分变化剧烈，一部分相对稳定。<br>将一个复杂对象的构建与其 表示 相分离，使得同样的构建过程（稳定）可以创建不同的表示（变化）。 （<strong>可调用子类虚函数的初始化函数</strong>）</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="built_in">Abstract</span>()&#123;&#125;;</span><br><span class="line"><span class="comment">// 其实就是 模板方法，然后新建一个 初始化函数，以完成构造流程。</span></span><br><span class="line"><span class="comment">// 绕开构造函数无法调用虚函数的限制。</span></span><br><span class="line"><span class="comment">// 初始化函数足够复杂，可以拆出去作为新类，则，子类中不会继承这一块内容。</span></span><br><span class="line"><span class="built_in">Construct</span>()&#123;</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructA</span>();</span><br><span class="line"><span class="keyword">this</span>-&gt;<span class="built_in">ConstructB</span>();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructA</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">ConstructB</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
           
       </categories>
       
@@ -1197,6 +1197,29 @@
     
     
     <entry>
+      <title>1 Factory Method 工厂方法</title>
+      <link href="/b80dfb29.html"/>
+      <url>/b80dfb29.html</url>
+      
+        <content type="html"><![CDATA[<p>工厂模式：</p><p><strong>定义一个用于创建对象的接口，让子类决定实例化哪一个类</strong>，使得一个类的实例化延迟。解耦 new 对类型的依赖。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractFactory</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">CreateAbstract</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">AbstractFactory</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractFactory* m_AbstractFactory;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">User</span>(AbstractFactory* abstractFactory) : <span class="built_in">m_AbstractFactory</span>(abstractFactory) &#123;</span><br><span class="line">Abstract* abstract = m_AbstractFactory-&gt;<span class="built_in">CreateAbstract</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Programing </category>
+          
+          <category> Design Pattern </category>
+          
+          <category> 1 Creational </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2 Bridge</title>
       <link href="/b26119ff.html"/>
       <url>/b26119ff.html</url>
@@ -1234,29 +1257,6 @@
           <category> Design Pattern </category>
           
           <category> 3 Behavioral </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>1 Factory Method 工厂方法</title>
-      <link href="/b80dfb29.html"/>
-      <url>/b80dfb29.html</url>
-      
-        <content type="html"><![CDATA[<p>工厂模式：</p><p><strong>定义一个用于创建对象的接口，让子类决定实例化哪一个类</strong>，使得一个类的实例化延迟。解耦 new 对类型的依赖。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">AbstractFactory</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> Abstract* <span class="title">CreateAbstract</span><span class="params">()</span> </span>= <span class="number">0</span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">AbstractFactory</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">User</span> &#123;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line">AbstractFactory* m_AbstractFactory;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">User</span>(AbstractFactory* abstractFactory) : <span class="built_in">m_AbstractFactory</span>(abstractFactory) &#123;</span><br><span class="line">Abstract* abstract = m_AbstractFactory-&gt;<span class="built_in">CreateAbstract</span>();</span><br><span class="line">&#125;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> Programing </category>
-          
-          <category> Design Pattern </category>
-          
-          <category> 1 Creational </category>
           
       </categories>
       
@@ -1955,7 +1955,7 @@
       <link href="/2f9cafca.html"/>
       <url>/2f9cafca.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h1><span id="实例化对象">实例化对象</span></h1><h2><span id="影响因素">影响因素</span></h2><p>虚函数<br>由虚表指针指向，所有对象共享。<br>非虚函数<br>所有对象共享。<br>非静态数据成员<br>对象大小的决定因素<br>静态函数<br>所有对象共享。<br>静态数据成员</p><p>内存对齐<br>可以手动指定。32位、64位不同。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Abstract</span> &#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="built_in">Abstract</span>(<span class="type">float</span> value) : <span class="built_in">m_Value</span>(value) &#123;&#125;</span><br><span class="line"><span class="comment">// 虚函数</span></span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">Abstract</span>() &#123;&#125;</span><br><span class="line"><span class="comment">// 非虚函数</span></span><br><span class="line"><span class="function"><span class="type">float</span> <span class="title">GetValue</span><span class="params">()</span> </span>&#123; <span class="keyword">return</span> m_Value; &#125;</span><br><span class="line"><span class="comment">// 静态函数</span></span><br><span class="line"><span class="function">Static Abstract* <span class="title">GetInstance</span><span class="params">()</span></span>;</span><br><span class="line"><span class="keyword">private</span>:</span><br><span class="line"><span class="comment">// 非静态数据成员</span></span><br><span class="line"><span class="type">float</span> m_Value;</span><br><span class="line"><span class="comment">// 静态数据成员</span></span><br><span class="line"><span class="type">static</span> Abstract* m_Instance;</span><br><span class="line">&#125;;</span><br><span class="line">Abstract abstract;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, <span class="built_in">sizeof</span>(abstract)); </span><br><span class="line"><span class="comment">// 内存布局</span></span><br><span class="line"><span class="comment">// vptr</span></span><br><span class="line"><span class="comment">// float</span></span><br><span class="line"><span class="comment">// pad （或有）</span></span><br><span class="line"><span class="comment">// 64位 16 = 4(float) + 8（虚表指针） + 4(对齐)</span></span><br><span class="line"><span class="comment">// 32位  8 = 4(float) + 4（虚表指针）</span></span><br></pre></td></tr></table></figure><p>一个实例对象，包含 <strong>非静态数据成员、虚表指针、为内存对齐而必须的填充</strong>，<strong>静态数据成员、函数</strong>独立于实例对象。</p><h2><span id="空对象">空对象</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Empty</span>&#123;</span><br><span class="line">&#125;;</span><br><span class="line">Empty empty;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, <span class="built_in">sizeof</span>(empty)); <span class="comment">// 1</span></span><br><span class="line">Empty arr[<span class="number">3</span>]; <span class="comment">// 若sizeof(Empty)=0，则arr[0]、arr[1]、arr[2]地址相同</span></span><br><span class="line"><span class="comment">// 内存布局</span></span><br><span class="line"><span class="comment">// 1</span></span><br></pre></td></tr></table></figure><p><strong>地址唯一性要求​</strong>​ C++规定每个对象必须有唯一的地址。<strong>空类对象</strong>大小至少为<strong>1字节</strong>，只是为了区分实例对象。 空类大小为0会导致数组元素无法正确分隔。</p><h2><span id="空基类">空基类</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Derived</span> : <span class="keyword">public</span> Empty &#123; </span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line"><span class="type">int</span> x; </span><br><span class="line">&#125;;</span><br><span class="line">Derived derived;</span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d&quot;</span>, <span class="built_in">sizeof</span>(derived)); <span class="comment">// 4，空基类不占用额外空间</span></span><br><span class="line"><span class="comment">// 内存布局</span></span><br><span class="line"><span class="comment">// int</span></span><br></pre></td></tr></table></figure><p>​**​空基类优化（Empty Base Optimization, EBO）**派生类的内存布局中，空基类与首个数据成员共享地址空间。</p><h1><span id="内存对齐">内存对齐</span></h1><h2><span id="手动指定">手动指定</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">pragma</span> pack(n) <span class="comment">// n 字节对齐</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> pack() <span class="comment">// 恢复默认</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> pack(1) <span class="comment">// 1 字节对齐 </span></span></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">NetworkPacket</span> &#123; </span><br><span class="line"><span class="type">uint8_t</span> type; </span><br><span class="line"><span class="type">uint32_t</span> data; <span class="comment">// 紧邻 type，无填充 </span></span><br><span class="line">&#125;;</span><br><span class="line"><span class="meta">#<span class="keyword">pragma</span> pack() <span class="comment">// 恢复默认对齐</span></span></span><br><span class="line"><span class="built_in">sizeof</span>(NetworkPacket) = <span class="number">5</span></span><br></pre></td></tr></table></figure><p>手动修改内存对齐，作用域级别</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">__attribute__((<span class="built_in">aligned</span>(n)))  <span class="comment">// 单独设置 n 字节对齐，GCC/Clang 特有（非标准 C++）</span></span><br><span class="line"><span class="built_in">alignas</span>(n) <span class="comment">// C++11 标准提供</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 结构体整体按 16 字节对齐 </span></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Vector4f</span> __attribute__((<span class="built_in">aligned</span>(<span class="number">16</span>))) &#123; </span><br><span class="line"><span class="type">float</span> x, y, z, w; </span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">// 单个成员按 8 字节对齐 </span></span><br><span class="line"><span class="keyword">struct</span> <span class="title class_">Data</span> &#123; </span><br><span class="line"><span class="type">char</span> id; </span><br><span class="line"><span class="type">int</span> value __attribute__((<span class="built_in">aligned</span>(<span class="number">8</span>))); </span><br><span class="line">&#125;;</span><br><span class="line">`Vector4f`地址为 <span class="number">16</span> 的倍数；`value`在 `Data`中的偏移为 <span class="number">8</span> 的倍数</span><br></pre></td></tr></table></figure><p>手动修改内存对齐，声明级别</p><h2><span id="非静态数据成员声明顺序与内存对齐">非静态数据成员声明顺序与内存对齐</span></h2><p>相同访问控制级别（<code>public protected private</code>），更 <code>靠后</code> 的成员有更 <code>高</code> 的地址。<br>即内存布局和声明顺序一致。<br>对于不同访问控制级别，未作规定，由编译器自行实现。但实际上编译器也是按声明顺序进行处理。</p><p>变量顺序会直接影响 <code>内存对齐</code>。</p><h1><span id="不含虚表的继承">不含虚表的继承</span></h1><h2><span id="单继承">单继承</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123;</span><br><span class="line"><span class="type">float</span> x;</span><br><span class="line"><span class="type">short</span> y;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span> : <span class="keyword">public</span> A &#123;</span><br><span class="line"><span class="type">short</span> z;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="built_in">sizeof</span>(B); <span class="comment">// 12 = A(4 + 2 + 2(对齐）） + B(2 + 2(对齐))</span></span><br><span class="line"><span class="comment">// 顺序</span></span><br><span class="line"><span class="comment">// A</span></span><br><span class="line"><span class="comment">// B</span></span><br></pre></td></tr></table></figure><p>类之间单独计算内存对齐。<br>C++ 保证，出现在 derived class 中的 base class subobject 有其 <strong>完整原样性</strong>。<br>否则，大的 object 赋值给小的 object，会引发 object 切割，将 大的object 的 subobject 赋值给 小的 object。</p><h2><span id="多继承">多继承</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123;&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span> &#123;&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">C</span> : <span class="keyword">public</span> A, <span class="keyword">public</span> B &#123;&#125;;</span><br><span class="line"><span class="comment">// 内存布局</span></span><br><span class="line"><span class="comment">// A</span></span><br><span class="line"><span class="comment">// B</span></span><br><span class="line"><span class="comment">// C</span></span><br></pre></td></tr></table></figure><h2><span id="多重继承">多重继承</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123;&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span> : <span class="keyword">public</span> A &#123;&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">C</span> : <span class="keyword">public</span> A &#123;&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">D</span> : <span class="keyword">public</span> B, <span class="keyword">public</span> C &#123;&#125;;</span><br><span class="line"><span class="comment">// 内存布局</span></span><br><span class="line"><span class="comment">// B::A</span></span><br><span class="line"><span class="comment">// B</span></span><br><span class="line"><span class="comment">// C::A</span></span><br><span class="line"><span class="comment">// C</span></span><br><span class="line"><span class="comment">// D</span></span><br><span class="line"><span class="comment">// 菱形继承（特例），访问A需要指明，但与多重继承一致</span></span><br></pre></td></tr></table></figure><h1><span id="含虚表的继承">含虚表的继承</span></h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoNothing</span><span class="params">()</span></span>;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">NoVirtual</span><span class="params">()</span></span>;</span><br><span class="line"><span class="keyword">virtual</span> ~<span class="built_in">A</span>();</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">// 虚表结构</span></span><br><span class="line"><span class="comment">// vptr -&gt;  虚表</span></span><br><span class="line"><span class="comment">// A_type_info</span></span><br><span class="line"><span class="comment">// A::DoSomething</span></span><br><span class="line"><span class="comment">// A::~A （类中声明的）</span></span><br><span class="line"><span class="comment">// A::~A （编译器合成的，会调用上面的）</span></span><br><span class="line"><span class="comment">// A::DoNothing</span></span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span> : <span class="keyword">public</span> A &#123;</span><br><span class="line"><span class="function"><span class="keyword">virtual</span> <span class="type">void</span> <span class="title">DoSomething</span><span class="params">()</span> <span class="keyword">override</span></span>;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="comment">// 虚表结构</span></span><br><span class="line"><span class="comment">// vptr -&gt;  虚表</span></span><br><span class="line"><span class="comment">// B_type_info</span></span><br><span class="line"><span class="comment">// B::DoSomething</span></span><br><span class="line"><span class="comment">// B::~A （类中声明的）</span></span><br><span class="line"><span class="comment">// B::~A （编译器合成的，会调用上面的）</span></span><br><span class="line"><span class="comment">// A::DoNothing</span></span><br><span class="line"><span class="comment">// 虚表调用过程</span></span><br><span class="line">(*ptr-&gt;vptr[n])(ptr)</span><br><span class="line"><span class="comment">// 菱形继承（特例），访问A需要指明，但与多重继承一致</span></span><br></pre></td></tr></table></figure><h1><span id="构造函数语义">构造函数语义</span></h1><h2><span id="默认构造生成规则">默认构造生成规则</span></h2><p>一些情况下，<code>编译会定义 默认构造、拷贝构造、移动构造、拷贝复制运算符、移动复制运算符、析构成员函数</code> 。</p><p>以下条件满足都满足时，编译器不会提供 <code>默认构造</code></p><ul><li>没有 <code>虚函数、虚基类</code><br>  无需设置虚表</li><li>所有 <code>非静态数据成员</code> 都已经在声明时初始化<br>  无需初始化值</li><li>所有 <code>直接继承的基类</code> 都没有默认构造函数<br>  无需调用基类的构造</li><li>所有 <code>非静态的数据成员</code> 都没有默认构造<br>  无需调用数据成员的构造</li></ul><h2><span id="基类和数据成员的初始化时机">基类和数据成员的初始化时机</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123;</span><br><span class="line"><span class="built_in">A</span>()&#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span> : <span class="keyword">public</span> A &#123;</span><br><span class="line"><span class="built_in">B</span>()&#123;</span><br><span class="line">A::<span class="built_in">A</span>(<span class="keyword">this</span>);       <span class="comment">//由编译器扩充</span></span><br><span class="line">A::<span class="built_in">A</span>(&amp;a);         <span class="comment">//由编译器扩充</span></span><br><span class="line">std::<span class="built_in">string</span>(&amp;m_Str);  <span class="comment">//由编译器扩充</span></span><br><span class="line">m_Str = <span class="string">&quot;m_Str&quot;</span>;          <span class="comment">//函数自定义</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="built_in">B</span>(<span class="type">const</span> std::string&amp; str) : <span class="built_in">m_Str</span>(str) &#123;</span><br><span class="line">A::<span class="built_in">A</span>(<span class="keyword">this</span>);       <span class="comment">//由编译器扩充</span></span><br><span class="line">A::<span class="built_in">A</span>(&amp;a);         <span class="comment">//由编译器扩充，按顺序（初始化成员列表的顺序问题）</span></span><br><span class="line"><span class="built_in">m_Str</span>(std::<span class="built_in">string</span>(&amp;str));  <span class="comment">//由编译器扩充</span></span><br><span class="line">&#125;</span><br><span class="line">A a;</span><br><span class="line">std::string m_Str;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure><p>构造是，从 <code>低地址 -&gt; 高地址</code> 去构造</p><h2><span id="拷贝构造生成规则">拷贝构造生成规则</span></h2><p>以下条件均满足时，编译器不会实现 <code>拷贝构造、移动构造</code> </p><ul><li>没有 <code>虚函数、虚基类</code><br>  无需构造虚表</li><li><code>直接继承的基类</code> 没有拷贝构造<br>  无需调用基类</li><li>所有 含 类对象（包括容器） 的 <code>非静态数据成员</code> 没有拷贝构造<br>  无需调用成员的</li></ul><h1><span id="析构函数语义">析构函数语义</span></h1><h2><span id="析构函数生成规则">析构函数生成规则</span></h2><p>以下条件满足都满足时，编译器不会提供 <code>默认析构</code></p><ul><li>所有 含 类对象（包括容器） 的 <code>非静态数据成员</code> 没有析构<br>  无需调用成员的析构</li><li>所有 <code>直接继承的基类</code> 析构<br>  无需调用基类的析构</li></ul><p>数据成员 析构执行的顺序，与数据成员的 声明顺序 相反。<br>析构是，从 <code>高地址 -&gt; 低地址</code> 去析构。</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123; ~<span class="built_in">A</span>()&#123;&#125; &#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">B</span> &#123; ~<span class="built_in">B</span>()&#123;&#125; &#125;;</span><br><span class="line"><span class="keyword">class</span> <span class="title class_">C</span> &#123; ~<span class="built_in">C</span>()&#123;</span><br><span class="line">A a,</span><br><span class="line">B b,</span><br><span class="line">&#125; &#125;;</span><br><span class="line"><span class="comment">// 顺序</span></span><br><span class="line"><span class="comment">// C::~C</span></span><br><span class="line"><span class="comment">// B::~B</span></span><br><span class="line"><span class="comment">// B::~B</span></span><br></pre></td></tr></table></figure><h1><span id="函数调用原理">函数调用原理</span></h1><h2><span id="全局函数">全局函数</span></h2><p><code>step1</code> 参数传递<br><code>step2</code> 调用函数<br><code>step3</code> 处理返回值</p><h2><span id="非静态非虚成员函数">非静态非虚成员函数</span></h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">A</span> &#123; <span class="built_in">A</span>(...)&#123;&#125; &#125;</span><br><span class="line"><span class="comment">// 实际执行逻辑</span></span><br><span class="line">A::<span class="built_in">A</span>(&amp;a, ...) <span class="comment">// 隐式传递 this 指针</span></span><br></pre></td></tr></table></figure><p><code>step1</code> 参数传递<br><code>step2</code> 把对象的首地址作为参数，调用函数<br><code>step3</code> 处理返回值</p><h2><span id="构造函数-拷贝构造函数-析构函数-虚函数">构造函数、拷贝构造函数、析构函数、虚函数</span></h2><p><code>step1</code> 参数传递<br><code>step2</code> 虚表跳转<br><code>step3</code> 把对象的首地址作为参数，调用函数<br><code>step4</code> 处理返回值</p>]]></content>
       
       
       <categories>
@@ -2895,27 +2895,6 @@
     
     
     <entry>
-      <title>Protobuf</title>
-      <link href="/608ca7e8.html"/>
-      <url>/608ca7e8.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> Work Experience </category>
-          
-          <category> Serialization </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>哈希函数</title>
       <link href="/e4aff432.html"/>
       <url>/e4aff432.html</url>
@@ -2928,6 +2907,27 @@
           <category> Work Experience </category>
           
           <category> Security </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Protobuf</title>
+      <link href="/608ca7e8.html"/>
+      <url>/608ca7e8.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> Work Experience </category>
+          
+          <category> Serialization </category>
           
       </categories>
       
